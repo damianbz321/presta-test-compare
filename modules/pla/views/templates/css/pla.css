@@ -1,0 +1,303 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-2021 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+ */
+
+.pla th, .pla td {
+    padding:5px 10px!important;
+}
+
+.pla .table {
+    margin-bottom:10px!important;
+}
+
+#pla_matrix .ctp_checked {
+    background: #F8FCC9;
+}
+
+#pla_matrix .ctp_checked:hover {
+    background: #F0F5BD !important;
+}
+
+#pla_matrix thead th {
+    padding-right: 14px;
+    margin-right: 5px;
+    background: url('../img/sortOff.gif') right 2px center no-repeat;
+}
+
+#pla_matrix thead th.headerSortUp {
+    background: url('../img/sortUp.gif') right 2px center no-repeat;
+}
+
+#pla_matrix thead th.headerSortDown {
+    background: url('../img/sortDown.gif') right 2px center no-repeat;
+}
+
+#pla_matrix thead th.nosort {
+    background: none !important;
+    padding: 5px !important;
+    margin-right: 0px !important;
+    cursor: default !important;
+}
+
+#pla_matrix thead {
+    cursor: pointer;
+}
+
+#pla_matrix thead.nosort {
+    cursor: default;
+}
+
+#pla_matrix thead.nosort th {
+    background: none !important;
+    padding: 5px !important;
+    margin-right: 0px !important;
+    cursor: default !important;
+}
+
+#pla_matrix {
+    width: 100%;
+    border-spacing: 2px;
+    border-collapse: separate;
+    font-size: 12px;
+    margin-bottom:10px;
+}
+
+#pla_matrix tr.pla_matrix_row:hover {
+    background: #f1f1f1;
+}
+
+#pla_matrix tr.pla_matrix_row:hover td {
+    border: 1px solid #f2f2f2;
+}
+
+#pla_matrix .pla_matrix_head {
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #FFF;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0); /* IE6-9 */
+}
+
+#pla_matrix .volume_discount {
+    display:block;
+    clear:both;
+    margin-bottom:5px;
+}
+
+#pla_matrix td, #pla_matrix th {
+    padding: 5px;
+    border: 1px solid #f1f2f4;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pla_matrix .qty {
+    margin: 0px;
+    border: 1px solid #dfdfdf;
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 11px;
+    width: 25px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.bulk_option_add_to_cart {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.bulk_option_add_to_cart p {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bulk_option_add_to_cart .buttons_bottom_block {
+    padding: 0px;
+}
+
+.increase_quantity, .decrease_quantity {
+    cursor: pointer;
+}
+
+.pla_price {
+    font-size: 12px;
+}
+
+.pla_price strike {
+    color: #c0c0c0;
+}
+
+.combinations_tab_price {
+    text-align:right;
+    margin-left:10px;
+    display:block;
+    float:right;
+}
+
+.pla_atr_name {
+    display:block;clear:both;
+}
+
+.pla_attr_div {
+    display:block; border: 1px dotted #DDD;
+    padding:2px 0px;
+    margin: 2px 0px;
+}
+
+
+.pla_matrix_dropdown .pla_matrix {
+    display: none;
+}
+
+.pla_matrix_dropdown .pla_matrix {
+    position:absolute;
+    background:#FFF;
+    left:0px;
+    z-index:99999;
+    width:100%;
+}
+
+.pla_matrix_dropdown {
+    position:relative;
+}
+
+.pla_matrix_dropdown {
+
+    background: #FFF;
+    margin-bottom:10px;
+}
+
+.pla_matrix_dropdown .pla_matrix_dropdown_block {
+    border: 1px solid #c0c0c0;
+    text-align:center;
+    cursor:pointer;
+}
+
+
+.crotate::after {
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.cdown::after{
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+    margin-top:0px!important;
+}
+
+.pla_matrix_dropdown .crotate {
+    float: right;
+}
+
+.pla_matrix_dropdown .crotate::after {
+    content: "\E5CF";
+    font-family: "Material Icons";
+    display: inline-block;
+    font-size: 23px;
+    line-height: 18px;
+    color: #c0c0c0;
+    margin-top:2px;
+}
+
+.pla_matrix_dropdown .pla_matrix_show {
+    display:table!important;
+}
+
+.pla_matrix_dropdown .pla_matrix_show td {
+    border: 1px solid #c0c0c0!important;
+}
+
+.pla_matrix_dropdown .pla_matrix_show {
+    border-collapse: collapse!important;
+}
+
+.pla_matrix_dropdown .nobrdown {
+    border-bottom:none!important;
+}
+
+.increase_quantity img, .decrease_quantity img {
+    margin:0px!important;
+}
+
+#pla_matrix .ct_submit {
+    clear:both;
+    display:block;
+    font-size:10px;
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+
+#pla_matrix .ct_submit_nostock {
+    position: relative;
+    top: 4px;
+    opacity: 0.5;
+    background: gray;
+    border: 1px solid gray;
+    color:#FFF;
+    cursor: not-allowed;
+}
+
+.pla_popup .crotate::after {
+    content: "\E8FF" !important;
+    font-family: "Material Icons";
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    color: #c0c0c0;
+    right: 10px;
+    position: absolute;
+}
+
+.product-miniature .thumbnail-container {
+    overflow: inherit!Important;
+}
+
+.fancybox-inner #pla_matrix {
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #FFF;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;;
+}
+
+.fancybox-inner #pla_matrix .ct_submit {
+    text-shadow: none !important;
+}
+
+.pla_color_parent {
+    border:1px solid #4a4a4a;
+}
+
+.pla_color_parent .pla_color {
+    display: block;
+    clear: both;
+    min-width: 25px;
+    height: 25px;
+    padding: 1px;
+    border: 1px solid #FFF;
+}
+
+.pla_fancy .fancybox-inner {
+    height: auto!Important;
+}

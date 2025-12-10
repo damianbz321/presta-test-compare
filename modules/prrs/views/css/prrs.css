@@ -1,0 +1,37 @@
+/*
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-2021 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ *
+
+ */
+.ratingValue {
+    position: relative;
+    top: 4px;
+}
+
+.total-rating-items-block-footer {
+    padding: 20px;
+}
+
+.h3reviews {
+    font-size: 20px;
+    display: block;
+    clear: both;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.addcomment {
+    text-align: right;
+}
+
+.ratingStarsShort img {
+    height:15px;
+    width:auto;
+}

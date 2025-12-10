@@ -1,0 +1,6 @@
+{
+    "settings": {
+        "58502c7fedb9": "Ensure settings button",
+        "de66ce92dab2": "Module can be configure not to show button with settings. For example, by mistake or misconfiguration. This ensures client always has a way to chose settings"
+    }
+}

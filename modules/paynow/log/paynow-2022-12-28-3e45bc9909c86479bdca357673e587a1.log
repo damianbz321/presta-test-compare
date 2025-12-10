@@ -1,0 +1,23 @@
+2022-12-28 20:44:51.782627 56f3b19db59aa9b74303cc3e7ea63105 INFO Processing payment for cart {cartId=903, externalId=903_63ac9cb3bf118}
+2022-12-28 20:44:54.612751 56f3b19db59aa9b74303cc3e7ea63105 DEBUG Deactivating all payments. {"external_id":"903_63ac9cb3bf118"}
+2022-12-28 20:44:54.613914 56f3b19db59aa9b74303cc3e7ea63105 DEBUG Created new paynow data entry {"id_order":null,"id_cart":903,"id_payment":"BLEP-FGQ-DXF-0HX","order_reference":null,"external_id":"903_63ac9cb3bf118","status":"NEW","sent_at":"2022-12-28 20:44:54"}
+2022-12-28 20:44:54.614765 56f3b19db59aa9b74303cc3e7ea63105 INFO Payment has been successfully created {cartId=903, externalId=903_63ac9cb3bf118, paymentId=BLEP-FGQ-DXF-0HX, status=PENDING}
+2022-12-28 20:44:54.616255 56f3b19db59aa9b74303cc3e7ea63105 DEBUG Setting optimistic lock on paynow data {cartId=903, externalId=903_63ac9cb3bf118}
+2022-12-28 20:44:54.619510 56f3b19db59aa9b74303cc3e7ea63105 DEBUG Successfully set up optimistic lock on paynow data {externalId=903_63ac9cb3bf118}
+2022-12-28 20:44:54.620330 56f3b19db59aa9b74303cc3e7ea63105 INFO Creating an order from cart {cartId=903, externalId=903_63ac9cb3bf118}
+2022-12-28 20:44:54.956670 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Incoming notification {"paymentId":"BLEP-FGQ-DXF-0HX","externalId":"903_63ac9cb3bf118","status":"NEW","modifiedAt":"2022-12-28T20:44:52"}
+2022-12-28 20:44:55.060949 685d153b262b5fdb3d140f718b90c7ae DEBUG Nofification: Incoming notification {"paymentId":"BLEP-FGQ-DXF-0HX","externalId":"903_63ac9cb3bf118","status":"PENDING","modifiedAt":"2022-12-28T20:44:52"}
+2022-12-28 20:44:55.067778 685d153b262b5fdb3d140f718b90c7ae DEBUG Nofification: Skipped processing. Order has newer status. Time travels are prohibited. {"paymentId":"BLEP-FGQ-DXF-0HX","externalId":"903_63ac9cb3bf118","status":"PENDING","modifiedAt":"2022-12-28 20:44:52","activePaymentId":"BLEP-FGQ-DXF-0HX","activePaymentStatus":"NEW","activePaymentDate":"2022-12-28 20:44:54","responseCode":202}
+2022-12-28 20:44:55.959677 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Skipped processing. Transition status (NEW) already consumed. {"paymentId":"BLEP-FGQ-DXF-0HX","externalId":"903_63ac9cb3bf118","status":"NEW","modifiedAt":"2022-12-28 20:44:52","activePaymentId":"BLEP-FGQ-DXF-0HX","activePaymentStatus":"NEW","activePaymentDate":"2022-12-28 20:44:54","responseCode":202}
+2022-12-28 20:44:56.535507 56f3b19db59aa9b74303cc3e7ea63105 INFO An order has been successfully created {cartId=903, externalId=903_63ac9cb3bf118, orderId=235, orderReference=DHJKAUZZZ, paymentId=BLEP-FGQ-DXF-0HX}
+2022-12-28 20:44:56.536494 56f3b19db59aa9b74303cc3e7ea63105 DEBUG Unsetting optimistic lock on paynow data {cartId=903, externalId=903_63ac9cb3bf118}
+2022-12-28 20:44:56.538686 56f3b19db59aa9b74303cc3e7ea63105 DEBUG Successfully unset optimistic lock on paynow data {externalId=903_63ac9cb3bf118}
+2022-12-28 20:44:56.540996 56f3b19db59aa9b74303cc3e7ea63105 DEBUG Successfully updated payment data {orderId=235, orderReference=DHJKAUZZZ, paymentId=BLEP-FGQ-DXF-0HX}
+2022-12-28 20:44:57.314997 56f3b19db59aa9b74303cc3e7ea63105 INFO Retrieving payment status {paymentId=BLEP-FGQ-DXF-0HX}
+2022-12-28 20:44:57.418656 56f3b19db59aa9b74303cc3e7ea63105 INFO Retrieved payment status {paymentId=BLEP-FGQ-DXF-0HX, status=PENDING}
+2022-12-28 20:44:57.419619 56f3b19db59aa9b74303cc3e7ea63105 DEBUG confirmBlik: status processing started {"status":"PENDING","externalId":"903_63ac9cb3bf118","paymentId":"BLEP-FGQ-DXF-0HX"}
+2022-12-28 20:44:57.422267 56f3b19db59aa9b74303cc3e7ea63105 DEBUG confirmBlik: status processing ended {"status":"PENDING","externalId":"903_63ac9cb3bf118","paymentId":"BLEP-FGQ-DXF-0HX"}
+2022-12-28 20:44:59.451353 685d153b262b5fdb3d140f718b90c7ae DEBUG Nofification: Incoming notification {"paymentId":"BLEP-FGQ-DXF-0HX","externalId":"903_63ac9cb3bf118","status":"CONFIRMED","modifiedAt":"2022-12-28T20:44:58"}
+2022-12-28 20:44:59.457850 685d153b262b5fdb3d140f718b90c7ae INFO Adding new state to order's history {externalId=903_63ac9cb3bf118, orderId=235, orderReference=DHJKAUZZZ, paymentId=BLEP-FGQ-DXF-0HX, paymentStatus=CONFIRMED, state=2}
+2022-12-28 20:45:00.186691 685d153b262b5fdb3d140f718b90c7ae INFO Added new state to order's history {externalId=903_63ac9cb3bf118, orderId=235, orderReference=DHJKAUZZZ,  paymentId=BLEP-FGQ-DXF-0HX, paymentStatus=CONFIRMED, state=2, historyId=924}
+2022-12-28 20:45:01.970480 56f3b19db59aa9b74303cc3e7ea63105 INFO Checking order's payment status {externalId=903_63ac9cb3bf118}

@@ -1,0 +1,12 @@
+Witamy!
+
+Dziękujemy za zakupy w naszym sklepie! Przygotowaliśmy dla Ciebie specjalny prezent. Jest nim kupon rabatowy na Twoje kolejne zakupy.
+
+Kod rabatowy:
+{voucher}
+
+Możesz go wykorzystać przy okazji składania kolejnego zamówienia!
+
+Dziękujemy i pozdrawiamy.
+
+{shop_url}

@@ -1,0 +1,9 @@
+2022-09-16 21:09:43.412147 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=IUNPMACLB, paymentId=NO8M-47V-121-4BY, status=NEW}
+2022-09-16 21:09:43.420694 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=641, externalId=IUNPMACLB, orderId=140, orderReference=IUNPMACLB, paymentId=NO8M-47V-121-4BY, fromStatus=NEW, toStatus=NEW}
+2022-09-16 21:09:43.422776 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=IUNPMACLB, paymentId=NO8M-47V-121-4BY, status=NEW, message=Another payment method is selected for order}
+2022-09-16 21:10:05.161751 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=IUNPMACLB, paymentId=NO8M-47V-121-4BY, status=PENDING}
+2022-09-16 21:10:05.165247 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=641, externalId=IUNPMACLB, orderId=140, orderReference=IUNPMACLB, paymentId=NO8M-47V-121-4BY, fromStatus=NEW, toStatus=PENDING}
+2022-09-16 21:10:05.166737 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=IUNPMACLB, paymentId=NO8M-47V-121-4BY, status=PENDING, message=Another payment method is selected for order}
+2022-09-16 21:10:15.358453 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=IUNPMACLB, paymentId=NO8M-47V-121-4BY, status=CONFIRMED}
+2022-09-16 21:10:15.361454 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=641, externalId=IUNPMACLB, orderId=140, orderReference=IUNPMACLB, paymentId=NO8M-47V-121-4BY, fromStatus=NEW, toStatus=CONFIRMED}
+2022-09-16 21:10:15.362751 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=IUNPMACLB, paymentId=NO8M-47V-121-4BY, status=CONFIRMED, message=Another payment method is selected for order}

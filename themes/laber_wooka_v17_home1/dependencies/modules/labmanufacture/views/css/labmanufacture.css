@@ -1,0 +1,90 @@
+.wt_logo_manufacturer{clear:both; padding:0; margin-bottom:50px; }
+.wt_logo_manufacturer .title_block{
+	color: #000;
+	font-size:24px;
+	padding: 23px 10px 10px 0px;
+	text-decoration: none;
+	float:left;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	margin-top: 0;
+	font-family:'roboto', sans-serif;
+	font-weight:500;
+	border-bottom:4px solid #ff8546;
+}
+
+.wt_logo_manufacturer .title{border-bottom:1px solid #f2f2f2;height:63px;}
+.wt_logo_manufacturer .title_block span{position: relative; }
+
+
+.wt_logo_manufacturer .list_manufacturer{padding-left:15px; padding-right:15px; margin:0; position: relative;}
+
+.list_manufacturer ul {display: block;width:100%;}
+.list_manufacturer li {
+	width:185px;
+	text-align:center;
+	/*height: 73px;*/
+	overflow:hidden;
+	vertical-align:middle;float:left;
+	margin-left:8px;
+	margin-right:7px;
+	height:auto;
+	overflow:hidden;
+}
+.list_manufacturer li a{
+	display:block;
+	
+}
+.list_manufacturer li a img{vertical-align:middle;max-width:100%;}
+.list_manufacturer li a img:hover{opacity:0.7;}
+.wt_logo_manufacturer .caroufredsel_wrapper{margin-bottom:0px !important;}
+.cclearfix {
+	float: none;
+	clear: both;
+}
+.pager {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+.pager a.selected {
+	text-decoration: underline;
+}
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}
+.ui-tabs .ui-tabs-hide {
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+.wt_logo_manufacturer  a.btn{   
+    float: left;
+   font-size:0;
+    position: absolute;
+    
+    top: -50px;
+    
+   
+	
+    }
+
+.wt_logo_manufacturer  a:focus{text-decoration: none; outline:none !important;}
+
+.wt_logo_manufacturer  a.btn:hover{}
+.wt_logo_manufacturer  a.prev{ right:46px;}
+.wt_logo_manufacturer  a.next{ background-position: 100% 0;
+    right:13px;}
+.wt_logo_manufacturer  a.prev:hover{background-position: 0 100%;}
+.wt_logo_manufacturer  a.next:hover{background-position: 100% 100%;}
+ @media (min-width: 768px) and (max-width: 991px){
+.wt_home_filter_product_tab .wt-button-container .quickview{padding:13px 20px 12px;}	
+.wt_home_filter_product_tab .wt-button-container .quickview:before{top:12px;}
+ }
+

@@ -1,0 +1,192 @@
+/**
+ * Copyright ETS Software Technology Co., Ltd
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 website only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future.
+ *
+ * @author ETS Software Technology Co., Ltd
+ * @copyright  ETS Software Technology Co., Ltd
+ * @license    Valid for 1 website (or project) for each purchase of license
+ */
+.ETS_MC_DOMAIN_group input#ETS_MC_DOMAIN {
+    background: #f5f8f9;
+}
+i.ets_svg_icon {
+    display: inline-block;
+    vertical-align: -2px;
+}
+a#ets_mc_gencode {
+    display: flex!important;
+    display: -webkit-flex!important;
+    white-space: normal!important;
+    width: auto!important;
+    float: left!important;
+    align-items: center!important;
+}
+.ETS_MC_DOMAIN_group.parents_copied input#ETS_MC_DOMAIN,
+.ETS_MC_ACCESS_TOKEN_group.parents_copied #ETS_MC_ACCESS_TOKEN {
+    background: #ffe2f0;
+    border: 1px dashed #e90172;
+    color: #e90172;
+}
+.ETS_MC_DOMAIN_group {
+    display: inline-block;
+    position: relative;
+}
+.ETS_MC_DOMAIN_group input#ETS_MC_DOMAIN {
+    min-height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    min-width: 350px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.ETS_MC_ACCESS_TOKEN_group {
+    position: relative;
+    margin-right: 8px;
+    display: inline-block;
+}
+span.data_copied {
+    position: absolute;
+    background: rgba(9,189,9,0.7);
+    color: #fff;
+    padding: 1px 5px 2px;
+    border-radius: 4px;
+    font-size: 10px;
+    right: -30px;
+    top: 7px;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    line-height: 16px;
+}
+span.data_copied.copied {
+    -webkit-animation-name: copirun;
+    -webkit-animation-duration: 1.5s;
+    animation-name: copirun;
+    animation-duration: 1.5s;
+}
+@keyframes copirun {
+    0% {
+        opacity: 0;
+        right: -30px;
+        visibility: visible;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        right: 10px;
+        visibility: visible;
+    }
+}
+
+@-webkit-keyframes copirun {
+
+    0% {
+        opacity: 0;
+        right: -30px;
+        visibility: visible;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        right: 5px;
+        visibility: visible;
+    }
+}
+
+a#ets_mc_gencode {
+    border: 1px solid #c7d6db;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #363A41;
+    height: 31px;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+a#ets_mc_gencode:hover {
+    color: #fff;
+    background-color: #00aff0;
+    border-color: #008abd;
+}
+input[type="radio"] + label {
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+}
+input#module_form_submit_btn {
+    padding: 6px 15px;
+}
+button:hover .ets_svg_fill_hover_white svg,
+.btn:hover .ets_svg_fill_hover_white svg{
+    fill: #ffffff;
+}
+.ets_svg_fill_gray svg{
+    fill: #666666;
+    vertical-align: -2px;
+}
+.h_14{
+    height: 14px;
+}
+.w_14{
+    width: 14px;
+}
+input#ETS_MC_ACCESS_TOKEN {
+    height: 31px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+    width: 250px;
+}
+.ets_mc_token .control-label + .col-lg-5 {
+    display: flex;
+    display: -webkit-flex;
+    max-width: 350px;
+    width: 350px;
+}
+.ets_mc_token .control-label + .col-lg-5 input#ETS_MC_ACCESS_TOKEN {
+    margin-right: 8px;
+}
+.ets_mc_token .control-label + .col-lg-5 a#ets_mc_gencode {
+    border-radius: 3px;
+}
+.ets_mc_token .control-label + .col-lg-5 a#ets_mc_gencode:not(:hover) {
+    border: 1px solid #c7d6db;
+}
+a#ets_mc_gencode i.icon-random {
+    margin-right: 4px;
+    vertical-align: -1px;
+}
+.btn.btn-default svg {
+    vertical-align: -3px;
+    margin-right: 2px;
+}
+
+
+
+

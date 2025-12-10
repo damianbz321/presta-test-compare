@@ -1,0 +1,314 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-2023 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+ */
+
+#Ppb .dropdown-toggle:not(.dropdown-toggle-split)::after {
+    margin-left: inherit!important;
+}
+
+.blink_focus {
+    background: #F5F8F9!important;
+}
+
+.blink_blur {
+    background: #c3d819!important;;
+}
+
+
+#Ppb h2 i {
+    font-size: 40px;
+    top: 12px;
+    position: relative;
+}
+
+#Ppb i {
+    margin-right:10px;
+}
+
+#Ppb .panel {
+    padding:10px;
+}
+
+#blockedit td.col-left {
+    width: 250px;
+    padding-right: 20px;
+}
+
+#blockedit .product_description {
+    color: #C0B4B4;
+}
+
+.slides {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.slides li {
+    overflow: hidden;
+    font-size: 14px !important;
+    list-style: none;
+    margin: 0 0 4px 0;
+    padding: 10px 5px;
+    background-color: #F4E6C9;
+    border: #CCCCCC solid 1px;
+    color: #000;
+}
+
+.hname a {
+    font-size: 16px !important;
+}
+
+.slides li:hover {
+    border: 1px #000 dashed;
+    opacity: 0.9
+}
+
+.slides li span.idtab {
+    width: 30px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.slides li span.name {
+    margin-left: 15px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+}
+
+.slides li span.remove {
+    opacity: 0.3;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    background: url("../../img/trash.png") top no-repeat;
+    cursor: pointer;
+}
+
+.slides li span.duplicate:hover, .slides li span.remove:hover, .slides li span a.edit:hover {
+    opacity: 1;
+}
+
+.slides li span.duplicate {
+    top: 1px;
+    margin-right: 6px;
+    opacity: 0.3;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    background: url("../../img/duplicate.png") top no-repeat;
+    cursor: pointer;
+}
+
+.slides li span a.edit {
+    top: 1px;
+    margin-right: 6px;
+    opacity: 0.3;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    background: url("../../img/edit.png") top no-repeat;
+    cursor: pointer;
+}
+
+.slides li span.off {
+    top: 2px;
+    margin-right: 6px;
+    opacity: 1.0;
+    position: relative;
+    width: 50px;
+    height: 22px;
+    display: inline-block;
+    float: right;
+    background: url("../../img/pro_off.png") top no-repeat;
+    cursor: pointer;
+}
+
+.slides li span.on {
+    top: 2px;
+    margin-right: 6px;
+    opacity: 1.0;
+    position: relative;
+    width: 50px;
+    height: 22px;
+    display: inline-block;
+    float: right;
+    background: url("../../img/pro_on.png") top no-repeat;
+    cursor: pointer;
+}
+
+#extratabs_editor {
+    width: 100%;
+    display: block;
+    min-height: 100px;
+    position: relative;
+    top: 0px;
+}
+
+table td {
+    vertical-align: top;
+}
+
+.language_flags {
+    display: none;
+}
+
+.displayed_flag {
+    margin-left: 10px;
+    position: relative !important;
+}
+
+.slides li.global_categories_block {
+    background: #D7ECFF !important;
+}
+
+.slides li.global_manufacturers_block {
+    background: #AEECA9 !important;
+}
+
+.slides li.global_manufacturers_blockglobal_categories_block {
+    background: #FBD6D4 !important;
+}
+
+.ppb_input {
+    display: block;
+    clear: both;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ppb_input label {
+    width: 150px;
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.ppb_input .margin-form {
+    display: block;
+    position: absolute;
+    left: 170px;
+    width: 200px;
+}
+
+.language_flags {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    left: 50px;
+}
+
+.language_flags {
+    display: none;
+    position: absolute;
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    left: 210px;
+    top: 0px;
+}
+
+.ppopupflagbody .language_flags {
+    left: 0px !important;
+    width: 100px !important;
+}
+
+.langpop {
+    position: relative;
+}
+
+table tr {
+    position: relative;
+}
+
+.addbtn {
+    display:inline-block;
+    background:#FFF;
+    cursor:pointer;
+    border:1px solid black;
+    padding:1px 3px;
+    margin-left:5px;
+}
+
+.type_feature_selected span.remove, .cat_feature_selected span.remove {
+    opacity: 0.3;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: right;
+    background: url("../../img/trash.png") top no-repeat;
+    cursor: pointer;
+    top: -2px;
+}
+
+.type_feature_selected span.remove:hover, .cat_feature_selected span.remove:hover {
+    opacity: 1.0;
+}
+
+.cat_price_from_v, .cat_price_to_v {
+    -webkit-transition : background 300ms ease-out!important;
+    -moz-transition : background 300ms ease-out!important;;
+    -o-transition : background 300ms ease-out!important;;
+    transition : background 300ms ease-out!important;;
+}
+
+.type_feature_selected, .cat_feature_selected {
+    padding-top:10px;
+    border-top:1px dotted #cecece;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+
+.type_feature_selected div, .cat_feature_selected div {
+    display:block;
+    clear:both;
+    background: #f8ffd1;
+    border: 1px dotted #b4b563;
+    padding: 10px;
+    margin-bottom:3px;
+}
+
+.type_feature_selected div:hover, .cat_feature_selected div:hover {
+    border: 1px dotted #676832;
+}
+
+.languageli {
+    padding:5px;
+}
+
+#Ppb .alert strong {
+    padding:0px;
+}
+
+#Ppb .alert strong {
+    border-bottom:1px solid #000;
+
+}
+
+#Ppb .alert {
+    padding:0px 10px 0px 50px;
+}

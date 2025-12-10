@@ -1,0 +1,11 @@
+Hi,
+
+
+Activation required
+
+Thank you for your subscription to our newsletter, please confirm your request by clicking the link below:
+{verif_url}
+
+
+
+{shop_name} [{shop_url}] powered by PrestaShop(tm) [http://www.prestashop.com/]

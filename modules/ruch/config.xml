@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ruch</name>
+	<displayName><![CDATA[Orlen]]></displayName>
+	<version><![CDATA[2.2.14]]></version>
+	<description><![CDATA[Orlen shipping module]]></description>
+	<author><![CDATA[Marcin Bogdanski @ Opennet]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

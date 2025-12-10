@@ -1,0 +1,65 @@
+.comments_note div.star, #myprestacommentsBlock div.star {
+    display: inline-block;
+    float: left;
+    width: 16px;
+    height: 16px;
+}
+
+.comments_note div.star_on, #myprestacommentsBlock div.star_hover, #myprestacommentsBlock div.star_on {
+    background: url(img/star16.png) no-repeat scroll 0 0 transparent !important;
+}
+
+.comments_note div.star, #myprestacommentsBlock div.star, #myprestacommentsBlock div.star_on {
+    background: url(img/star-no16.png) no-repeat scroll 0 0 transparent
+}
+
+#new_comment_form div.star {
+    display: inline-block;
+    float: left;
+    width: 16px;
+    height: 16px;
+}
+
+#new_comment_form div.star_hover, #new_comment_form div.star_on {
+    background: url(img/star16.png) no-repeat scroll 0 0 transparent !important;
+}
+
+#new_comment_form div.star, #new_comment_form div.star_on {
+    background: url(img/star-no16.png) no-repeat scroll 0 0 transparent
+}
+
+.criterions_grade .criterion.star {
+    zoom: 0.7;
+    opacity: 0.8;
+}
+
+#product_comments_block_tab div.comment .star_content {
+    margin: 0;
+    margin-bottom:10px;
+}
+
+.comment_product .star_content {
+    width: 80px;
+    display: block;
+    margin: auto !important;
+    float: none !important;
+    padding-top: 5px;
+}
+
+#new_comment_form div.star a, #myprestacommentsBlock .star a {
+    display: none;
+}
+
+#new_comment_form #criterions_list label {
+    display: inline;
+    float: left;
+    margin: 0px 10px 0 60px;
+    text-align: right;
+    min-width: 150px;
+}
+
+.comments_note {
+    width:80px;
+    margin:auto;
+    font-size: 12px;
+}

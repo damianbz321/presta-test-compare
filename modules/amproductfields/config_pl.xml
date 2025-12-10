@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>amproductfields</name>
+    <displayName><![CDATA[(AM) Product Fields]]></displayName>
+    <version><![CDATA[1.0]]></version>
+    <description><![CDATA[Ajouter des champs suppl&eacute;mentaires aux produit]]></description>
+    <author><![CDATA[Arnaud Merigeau]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

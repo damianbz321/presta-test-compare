@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+html, body{
+	height:auto !important;
+}
+
+.general_errors .error, .errors span{ 
+	background-color: #f2dede;
+	color:#a94442;
+}
+.general_notices .notice, .notices span{ 
+	background-color: orange;
+}
+
+.custom-bootstrap
+{
+	padding: 10px 10px 0 !important;
+	width:80%;
+}
+
+
+span.sended{
+	background-color:#8A2BE2;
+	color:white !important; 
+}
+span.waiting{
+	background-color:#32CD32;
+	color:#383838 !important;
+}
+
+#navbar-collapse ul li a span {
+    margin-right: 5px;
+}
+
+#dropdown-hidden
+{
+	height:150px;
+	clear:both;	
+}
+
+.imgm
+{	
+	float: left;
+    margin-bottom: 3px;
+    margin-right: 15px;
+}
+
+div#ui-datepicker-div {
+	background: #ffff;
+	border: 1px solid #ddd;
+}
+
+.ui-slider-horizontal {
+	height: .8em;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+}
+
+a.ui-slider-handle.ui-state-default.ui-corner-all {
+	border: 1px solid #a5a5a5;
+	border-radius: 3px;
+}
+
+.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+	background: #ccc;
+	border-radius: 4px;
+	color: #000;
+	font-weight: bold;
+}
+
+/*.ui-widget-header .ui-icon {*/
+/*	background-image: url(../Images/ui-icons_222222_256x240.png)!*{iconsHeader}*!;*/
+/*}*/
+
+/*.ui-widget-header .ui-icon {*/
+/*	background-image: url(../Images/ui-icons_222222_256x240.png)!*{iconsHeader}*!;*/
+/*}*/
+
+.ui-icon {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.ui-datepicker-next > .ui-icon {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.ui-datepicker-prev > .ui-icon {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}

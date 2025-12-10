@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>seigipricehistory</name>
+    <displayName><![CDATA[Omnibus - Historia Ceny produktu - SEIGI Price History]]></displayName>
+    <version><![CDATA[2.2.8]]></version>
+    <description><![CDATA[Zachowaj historię swoich cen z łatwym dostępem dla klient&oacute;w, aby mogli je zobaczyć]]></description>
+    <author><![CDATA[SEIGI]]></author>
+    <tab><![CDATA[frontend]]></tab>
+	<confirmUninstall><![CDATA[Potwierdź odinstalowanie]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

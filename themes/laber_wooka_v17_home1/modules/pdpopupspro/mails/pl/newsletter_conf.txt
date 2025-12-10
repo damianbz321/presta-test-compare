@@ -1,0 +1,10 @@
+Witaj,
+
+
+Newsletter - subskrypcja
+
+Dziękujemy za zapisanie się do newsletter-a w sklepie {shop_name}
+
+
+
+{shop_name} [{shop_url}] na silniku PrestaShop(tm) [http://www.prestashop.com/]

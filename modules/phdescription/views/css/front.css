@@ -1,0 +1,30 @@
+.phdescription {}
+.phdescription h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin: 15px 15px 25px;
+}
+.phdescription .row {
+    margin: 25px 0;
+}
+.phdescription .row .image-box {}
+.phdescription .row .image-box img {
+    max-width: 100%;
+}
+.phdescription .row .description {
+    width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.phdescription .row-3 .row-desc, .phdescription .row-4 .row-desc,  .phdescription .row-5 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phdescription .row-3 .image-box, .phdescription .row-4 .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

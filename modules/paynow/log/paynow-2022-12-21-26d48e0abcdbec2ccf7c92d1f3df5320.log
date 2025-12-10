@@ -1,0 +1,10 @@
+2022-12-21 3:02:00.485701 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=886_639f56b64213b, paymentId=BLUB-Q2O-0RB-RZA, status=NEW}
+2022-12-21 3:02:00.485852 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=886_639f56b64213b, paymentId=BLUB-Q2O-0RB-RZA, status=PENDING}
+2022-12-21 3:02:00.490325 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=886_639f56b64213b, paymentId=BLUB-Q2O-0RB-RZA, status=NEW}
+2022-12-21 3:02:00.490519 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=886_639f56b64213b, paymentId=BLUB-Q2O-0RB-RZA, status=PENDING}
+2022-12-21 3:02:05.597986 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=886_639f56b64213b, paymentId=BLUB-Q2O-0RB-RZA, status=CONFIRMED}
+2022-12-21 3:02:05.599710 685d153b262b5fdb3d140f718b90c7ae WARNING Payment for order or cart not exists {externalId=886_639f56b64213b, paymentId=BLUB-Q2O-0RB-RZA, status=CONFIRMED}
+2022-12-21 10:16:15.015474 cca65cdda36f38dba3beb279fd1d2736 INFO Retrieving payment status {paymentId=BLY6-EQN-5MJ-TCW}
+2022-12-21 10:16:15.164910 cca65cdda36f38dba3beb279fd1d2736 INFO Retrieved payment status {paymentId=BLY6-EQN-5MJ-TCW, status=CONFIRMED}
+2022-12-21 10:16:15.165728 cca65cdda36f38dba3beb279fd1d2736 INFO Processing order's state update {cartId=894, externalId=894_63a190f338553, orderId=230, orderReference=FBECWBRIY, paymentId=BLY6-EQN-5MJ-TCW, fromStatus=CONFIRMED, toStatus=CONFIRMED}
+2022-12-21 10:16:15.168093 cca65cdda36f38dba3beb279fd1d2736 ERROR An error occurred during updating state {code=0, externalId=894_63a190f338553, paymentId=BLY6-EQN-5MJ-TCW, status=CONFIRMED, message=Status transition is incorrect CONFIRMED - CONFIRMED}

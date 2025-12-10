@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'localhost',
+    'database_port' => '',
+    'database_name' => 'hifood_hifoodpresta',
+    'database_user' => 'hifood_hifoodpresta',
+    'database_password' => 'Rf@=5Wgcyy',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'B15vLIPhRGWcZ45FdBBfmTgCvsCWLXy4jPoqycDfsOOmotr9PHZPKiSPA4SXiDjy',
+    'ps_caching' => 'CacheMemcached',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-09-08',
+    'locale' => 'pl-PL',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'FZJJrm6UI05yP0R5xfIcRyFuduqKEaICjsKKR4VvIWK535ErNORZAJHZSSqQreUG',
+    'cookie_iv' => 'unUopV6yMenEYpbWJFvjpCuNghzzRV0n',
+    'new_cookie_key' => 'def00000ac0dea7e6685934ffa367d14bda861326881bc37e664404d2fca22ac95ffc5424a9a4281ca5a42913e107fe83ab04607565220e43089ae7c427e1f47e59e6eec',
+  ),
+);

@@ -1,0 +1,19 @@
+{
+  "name": "trustisto",
+  "description": "PrestaShop module for Trustisto",
+  "homepage": "https://gitlab.com/socialproof-plugins/socialproof-presta-1-7",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fones Software",
+      "email": "ja@fones.pl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}

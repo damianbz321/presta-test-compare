@@ -1,0 +1,69 @@
+{
+    "base": {
+        "type": "base",
+        "required": true,
+        "visible": true,
+        "styles": {
+            "background": "#333333",
+            "color": "#000"
+        }
+    },
+    "elements": {
+        "block_2": {
+            "type": "blockLogo",
+            "visible": true,
+            "styles": {
+                "background": "#FFFFFF",
+                "color": "#000",
+                "logo": "default",
+                "align": "left"
+            }
+        },
+        "block_1": {
+            "type": "blockText",
+            "visible": true,
+            "html": "<p>Spodobały Ci się te produkty?</p><p>{firstname}, w Twoim koszyku nadal znajdują się wybrane produkty. Zachęcamy do powrotu do sklepu i dokończenia transakcji nim inni zdecydują się na zakup tych samych produktów. </p>",
+            "styles": {
+                "background": "#FFFFFF",
+                "color": "#000"
+            }
+        },
+        "block_3": {
+            "type": "blockDiscount",
+            "visible": true,
+            "html": "<p>Nie dokończyłeś zakupów? Nic się nie stało, ponieważ teraz możesz to zrobić z rabatem! Kod ważny jest do {cartrule_validto}. Dotyczy produktów nieprzecenionych.</p>",
+            "styles": {
+                "background": "#FFFFFF",
+                "color": "#000000"
+            }
+        },
+        "block_4": {
+            "type": "blockProducts",
+            "visible": true,
+            "styles": {
+                "background": "#FFFFFF",
+                "color": "#000"
+            }
+        },
+        "block_5": {
+            "type": "blockCTA",
+            "required": true,
+            "visible": true,
+            "html": "<p style='padding:0;margin:0'>Dokończ zakupy</p>",
+            "styles": {
+                "background": "#FFFFFF",
+                "buttonbg": "#ffe807",
+                "color": "#644223"
+            }
+        },
+        "block_6": {
+            "type": "blockText",
+            "visible": true,
+            "html": "<p>Ta wiadomość została wysłana przez sklep internetowy <a href=\"{shop_url}\">{shop_url}</a> należący do {company_name} z siedzibą w: {company_address}.</p>",
+            "styles": {
+                "background": "#f9f9fc",
+                "color": "#363942"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+2022-06-18 22:46:27.213603 e9592f1d8e990ecc48313fcda312c79e INFO Processing payment for cart {cartId=411, externalId=411_62ae39a334257}
+2022-06-18 22:46:28.586519 e9592f1d8e990ecc48313fcda312c79e DEBUG Created paynow data entry {cartId=411, externalId=411_62ae39a334257}
+2022-06-18 22:46:28.587841 e9592f1d8e990ecc48313fcda312c79e INFO Payment has been successfully created {cartId=411, externalId=411_62ae39a334257, paymentId=BLG4-22D-ZRU-M2O, status=PENDING}
+2022-06-18 22:46:28.593950 e9592f1d8e990ecc48313fcda312c79e DEBUG Setting optimistic lock on paynow data {cartId=411, externalId=411_62ae39a334257}
+2022-06-18 22:46:28.597209 e9592f1d8e990ecc48313fcda312c79e DEBUG Successfully set up optimistic lock on paynow data {externalId=411_62ae39a334257}
+2022-06-18 22:46:28.598141 e9592f1d8e990ecc48313fcda312c79e INFO Creating an order from cart {cartId=411, externalId=411_62ae39a334257}
+2022-06-18 22:46:29.102008 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=411_62ae39a334257, paymentId=BLG4-22D-ZRU-M2O, status=PENDING}
+2022-06-18 22:46:29.107033 685d153b262b5fdb3d140f718b90c7ae DEBUG Successfully updated payment data {paymentId=BLG4-22D-ZRU-M2O, status=PENDING}
+2022-06-18 22:46:29.107739 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=411, externalId=411_62ae39a334257, orderId=0, orderReference=, paymentId=BLG4-22D-ZRU-M2O, fromStatus=NEW, toStatus=PENDING}
+2022-06-18 22:46:29.108766 685d153b262b5fdb3d140f718b90c7ae WARNING An order does not exists {orderId=0}
+2022-06-18 22:46:29.320224 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=411_62ae39a334257, paymentId=BLG4-22D-ZRU-M2O, status=NEW}
+2022-06-18 22:46:29.585503 e9592f1d8e990ecc48313fcda312c79e INFO An order has been successfully created {cartId=411, externalId=411_62ae39a334257, orderId=74, orderReference=VUKKDCGLA, paymentId=BLG4-22D-ZRU-M2O}
+2022-06-18 22:46:29.586483 e9592f1d8e990ecc48313fcda312c79e DEBUG Unsetting optimistic lock on paynow data {cartId=411, externalId=411_62ae39a334257}
+2022-06-18 22:46:29.589577 e9592f1d8e990ecc48313fcda312c79e DEBUG Successfully unset optimistic lock on paynow data {externalId=411_62ae39a334257}
+2022-06-18 22:46:29.592139 e9592f1d8e990ecc48313fcda312c79e DEBUG Successfully updated payment data {orderId=74, orderReference=VUKKDCGLA, paymentId=BLG4-22D-ZRU-M2O}
+2022-06-18 22:46:29.741791 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BLG4-22D-ZRU-M2O, status=NEW}
+2022-06-18 22:46:29.742657 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=411, externalId=411_62ae39a334257, orderId=0, orderReference=, paymentId=BLG4-22D-ZRU-M2O, fromStatus=PENDING, toStatus=NEW}
+2022-06-18 22:46:29.744095 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {orderId=0}
+2022-06-18 22:46:30.064074 e9592f1d8e990ecc48313fcda312c79e INFO Retrieving payment status {paymentId=BLG4-22D-ZRU-M2O}
+2022-06-18 22:46:30.201216 e9592f1d8e990ecc48313fcda312c79e INFO Retrieved payment status {paymentId=BLG4-22D-ZRU-M2O, status=PENDING}
+2022-06-18 22:46:30.202233 e9592f1d8e990ecc48313fcda312c79e INFO Processing order's state update {cartId=411, externalId=411_62ae39a334257, orderId=74, orderReference=VUKKDCGLA, paymentId=BLG4-22D-ZRU-M2O, fromStatus=NEW, toStatus=PENDING}
+2022-06-18 22:46:30.205705 e9592f1d8e990ecc48313fcda312c79e DEBUG Successfully updated payment data {paymentId=BLG4-22D-ZRU-M2O, status=PENDING}
+2022-06-18 22:46:30.206604 e9592f1d8e990ecc48313fcda312c79e INFO Changed order's state {cartId=411, externalId=411_62ae39a334257, orderReference=VUKKDCGLA, paymentId=BLG4-22D-ZRU-M2O, status=PENDING}
+2022-06-18 22:46:33.665369 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=411_62ae39a334257, paymentId=BLG4-22D-ZRU-M2O, status=CONFIRMED}
+2022-06-18 22:46:33.668961 685d153b262b5fdb3d140f718b90c7ae DEBUG Successfully updated payment data {paymentId=BLG4-22D-ZRU-M2O, status=CONFIRMED}
+2022-06-18 22:46:33.669668 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=411, externalId=411_62ae39a334257, orderId=74, orderReference=VUKKDCGLA, paymentId=BLG4-22D-ZRU-M2O, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-06-18 22:46:33.671699 685d153b262b5fdb3d140f718b90c7ae INFO Adding new state to order's history {externalId=411_62ae39a334257, orderId=74, orderReference=VUKKDCGLA, paymentId=BLG4-22D-ZRU-M2O, paymentStatus=CONFIRMED, state=2}
+2022-06-18 22:46:34.086532 685d153b262b5fdb3d140f718b90c7ae INFO Added new state to order's history {externalId=411_62ae39a334257, orderId=74, orderReference=VUKKDCGLA,  paymentId=BLG4-22D-ZRU-M2O, paymentStatus=CONFIRMED, state=2, historyId=271}
+2022-06-18 22:46:34.089835 685d153b262b5fdb3d140f718b90c7ae DEBUG Successfully updated payment data {paymentId=BLG4-22D-ZRU-M2O, status=CONFIRMED}
+2022-06-18 22:46:34.090728 685d153b262b5fdb3d140f718b90c7ae INFO Changed order's state {cartId=411, externalId=411_62ae39a334257, orderReference=VUKKDCGLA, paymentId=BLG4-22D-ZRU-M2O, status=CONFIRMED}
+2022-06-18 22:46:41.528896 e9592f1d8e990ecc48313fcda312c79e INFO Checking order's payment status {externalId=411_62ae39a334257}

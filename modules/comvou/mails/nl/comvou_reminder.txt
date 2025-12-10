@@ -1,0 +1,67 @@
+    
+
+
+
+    
+    
+        &nbsp;
+        
+            
+                
+                
+                     
+                
+                
+                    
+                        Hello {first_name} {last_name}!
+                        It&#39;s a kind reminder that we wait for your comment about products from one of your recent orders.
+                    
+                
+                
+                    &nbsp;
+                
+                
+                    
+                        
+                            
+                            
+                                &nbsp;
+                                
+                                    
+                                        
+                                        
+                                            
+                                                Product name
+                                            
+                                            
+                                                Quantity
+                                            
+                                        
+                                        {products}
+                                        
+                                    
+                                
+                                &nbsp;
+                            
+                            
+                        
+                    
+                
+                
+                    &nbsp;
+                
+                
+                    &nbsp;
+                
+                
+                    {shop_name}
+                
+                
+            
+        
+        &nbsp;
+    
+    
+
+&nbsp;
+

@@ -1,0 +1,32 @@
+2022-12-14 13:40:51.215114 bd082ff38b0c65361840744d9c22cf07 INFO Processing payment for cart {cartId=881, externalId=881_6399c45334841}
+2022-12-14 13:40:53.125050 bd082ff38b0c65361840744d9c22cf07 DEBUG Created paynow data entry {cartId=881, externalId=881_6399c45334841}
+2022-12-14 13:40:53.126934 bd082ff38b0c65361840744d9c22cf07 INFO Payment has been successfully created {cartId=881, externalId=881_6399c45334841, paymentId=BL47-3AH-ZF6-9EN, status=PENDING}
+2022-12-14 13:40:53.128575 bd082ff38b0c65361840744d9c22cf07 DEBUG Setting optimistic lock on paynow data {cartId=881, externalId=881_6399c45334841}
+2022-12-14 13:40:53.130686 bd082ff38b0c65361840744d9c22cf07 DEBUG Successfully set up optimistic lock on paynow data {externalId=881_6399c45334841}
+2022-12-14 13:40:53.131531 bd082ff38b0c65361840744d9c22cf07 INFO Creating an order from cart {cartId=881, externalId=881_6399c45334841}
+2022-12-14 13:40:53.579571 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=881_6399c45334841, paymentId=BL47-3AH-ZF6-9EN, status=PENDING}
+2022-12-14 13:40:53.583493 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=881, externalId=881_6399c45334841, orderId=0, orderReference=, paymentId=BL47-3AH-ZF6-9EN, fromStatus=NEW, toStatus=PENDING}
+2022-12-14 13:40:53.584657 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=881, externalId=881_6399c45334841, orderId=0, orderReference=, paymentId=BL47-3AH-ZF6-9EN}
+2022-12-14 13:40:55.602839 bd082ff38b0c65361840744d9c22cf07 INFO An order has been successfully created {cartId=881, externalId=881_6399c45334841, orderId=223, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN}
+2022-12-14 13:40:55.603775 bd082ff38b0c65361840744d9c22cf07 DEBUG Unsetting optimistic lock on paynow data {cartId=881, externalId=881_6399c45334841}
+2022-12-14 13:40:55.606091 bd082ff38b0c65361840744d9c22cf07 DEBUG Successfully unset optimistic lock on paynow data {externalId=881_6399c45334841}
+2022-12-14 13:40:55.608452 bd082ff38b0c65361840744d9c22cf07 DEBUG Successfully updated payment data {orderId=223, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN}
+2022-12-14 13:40:56.130069 bd082ff38b0c65361840744d9c22cf07 INFO Retrieving payment status {paymentId=BL47-3AH-ZF6-9EN}
+2022-12-14 13:40:56.293688 bd082ff38b0c65361840744d9c22cf07 INFO Retrieved payment status {paymentId=BL47-3AH-ZF6-9EN, status=PENDING}
+2022-12-14 13:40:56.294557 bd082ff38b0c65361840744d9c22cf07 INFO Processing order's state update {cartId=881, externalId=881_6399c45334841, orderId=223, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN, fromStatus=NEW, toStatus=PENDING}
+2022-12-14 13:40:56.297398 bd082ff38b0c65361840744d9c22cf07 DEBUG Successfully updated payment data {paymentId=BL47-3AH-ZF6-9EN, status=PENDING}
+2022-12-14 13:40:56.298146 bd082ff38b0c65361840744d9c22cf07 INFO Changed order's state {cartId=881, externalId=881_6399c45334841, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN, status=PENDING}
+2022-12-14 13:41:00.029850 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=881_6399c45334841, paymentId=BL47-3AH-ZF6-9EN, status=CONFIRMED}
+2022-12-14 13:41:00.032984 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=881, externalId=881_6399c45334841, orderId=223, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-12-14 13:41:00.035382 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=881_6399c45334841, orderId=223, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN, paymentStatus=CONFIRMED, state=2}
+2022-12-14 13:41:00.422637 bd082ff38b0c65361840744d9c22cf07 INFO Checking order's payment status {externalId=881_6399c45334841}
+2022-12-14 13:41:00.424086 bd082ff38b0c65361840744d9c22cf07 INFO Retrieving payment status {paymentId=BL47-3AH-ZF6-9EN}
+2022-12-14 13:41:00.581907 bd082ff38b0c65361840744d9c22cf07 INFO Retrieved payment status {paymentId=BL47-3AH-ZF6-9EN, status=CONFIRMED}
+2022-12-14 13:41:00.583245 bd082ff38b0c65361840744d9c22cf07 INFO Processing order's state update {cartId=881, externalId=881_6399c45334841, orderId=223, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-12-14 13:41:00.587198 bd082ff38b0c65361840744d9c22cf07 DEBUG Successfully updated payment data {paymentId=BL47-3AH-ZF6-9EN, status=CONFIRMED}
+2022-12-14 13:41:00.588057 bd082ff38b0c65361840744d9c22cf07 INFO Changed order's state {cartId=881, externalId=881_6399c45334841, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN, status=CONFIRMED}
+2022-12-14 13:41:00.724148 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=881_6399c45334841, orderId=223, orderReference=OSIQEKFJJ,  paymentId=BL47-3AH-ZF6-9EN, paymentStatus=CONFIRMED, state=2, historyId=869}
+2022-12-14 13:41:00.727802 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BL47-3AH-ZF6-9EN, status=CONFIRMED}
+2022-12-14 13:41:00.728892 5894f5bae910a7be2366f9518f0baedb INFO Changed order's state {cartId=881, externalId=881_6399c45334841, orderReference=OSIQEKFJJ, paymentId=BL47-3AH-ZF6-9EN, status=CONFIRMED}
+2022-12-14 13:41:02.901042 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=881_6399c45334841, paymentId=BL47-3AH-ZF6-9EN, status=NEW}
+2022-12-14 13:41:02.903300 5894f5bae910a7be2366f9518f0baedb INFO An order already has a paid status. Skipped notification processing {externalId=881_6399c45334841, paymentId=BL47-3AH-ZF6-9EN, status=NEW}

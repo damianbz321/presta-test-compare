@@ -1,0 +1,235 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the MIT License (MIT)
+* that is bundled with this package in the file LICENSE.md.
+*
+* @author mElements S.A.
+* @copyright mElements S.A.
+* @license   MIT License
+*/
+.payment_module.paynow {
+    clear: both;
+}
+
+p.payment_module .paynow {
+    padding-left: 17px;
+}
+
+.paynow.with-pbls .paynow {
+    display: block;
+    border: 1px solid #d6d4d4;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 23px;
+    color: #333;
+    font-weight: bold;
+    padding: 33px 40px 34px 17px;
+    letter-spacing: -1px;
+    position: relative;
+}
+
+p.payment_module .paynow img {
+    padding: 8px 10px;
+    max-width: 100px;
+}
+
+.paynow-payment-option-pbl img {
+    max-width: 80px;
+    width: 100%;
+}
+
+.paynow-payment-option-pbl button:disabled img, .paynow-payment-option-pbl.disabled img  {
+    opacity: 0.3;
+    filter: grayscale(1);
+}
+
+.paynow-payment-option-pbl input[type=radio] {
+    display: none;
+}
+
+.paynow-payment-option-pbl label {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.paynow-payment-option-pbl.disabled label {
+    cursor: not-allowed;
+}
+
+.paynow-payment-option-pbl input[type=radio]:checked + label {
+    border: 1px solid #d2d2d2;
+    background: #f3f3f3;
+}
+
+.paynow-payment-option-pbl button {
+    border: 1px solid #e6e6e6;
+    background: 0;
+    width: 100%;
+    padding: 10px;
+    min-height: 80px;
+    margin: 5px 0;
+}
+
+.paynow-payment-option-pbl button:enabled:hover {
+    border: 1px solid #d2d2d2;
+    background: #f3f3f3;
+}
+
+.paynow-payment-option-pbl button:disabled:hover {
+    cursor: not-allowed;
+}
+
+.paynow-payment-form {
+    padding: 10px;
+}
+
+button.payment-option {
+    width: 100%;
+    padding: 33px 40px 34px 17px;
+    text-align: left;
+    border: 1px solid #d6d4d4;
+    background: #fbfbfb;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: bold;
+    position: relative;
+}
+
+p.payment_module.paynow button:after {
+    display: block;
+    content: "\f054";
+    position: absolute;
+    right: 15px;
+    margin-top: -11px;
+    top: 50%;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    width: 14px;
+    color: #777777;
+}
+
+.paynow > button:enabled:hover {
+    border: 1px solid #d2d2d2;
+    background: #f3f3f3;
+}
+
+.paynow > button img {
+    max-height: 40px !important;
+    max-width: 80px !important;
+    margin-right: 10px;
+    height: auto !important;
+}
+
+.payment-option img {
+    max-height: 1.5rem !important;
+    max-width: 80px !important;
+    height: auto !important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.paynow .payment-option:disabled img {
+    opacity: 0.3;
+    filter: grayscale(1);
+}
+
+.order-data {
+    margin: 1.5rem 0;
+}
+
+.paynow-blik-form .paynow-data-processing-info {
+    margin-top: 1rem;
+}
+
+.paynow-blik-form label {
+    display: inline-block;
+    text-align: left;
+}
+
+.paynow-blik-form input[type=text] {
+    letter-spacing: 5px;
+}
+
+.paynow-blik-form span.error {
+    text-align: center;
+    color: darkred;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.paynow-blik-form .paynow-payment-option-container input[type=text] + span {
+    font-size: 0.8rem;
+}
+
+.paynow-data-processing-info {
+    color: #797979;
+    text-align: justify;
+    clear: both;
+}
+
+.paynow-data-processing-info .paynow-data-processing-info-less span {
+    cursor: pointer;
+}
+
+.paynow-payment-form .paynow-data-processing-info {
+    font-size: 0.7rem;
+}
+
+.paynow-data-processing-info ul {
+    list-style-type: lower-alpha;
+    margin: 0 1.5rem;
+}
+
+.paynow-payment-form .paynow-data-processing-info ul {
+    margin: 0 1rem;
+}
+
+.paynow-confirm-blik {
+    text-align: center;
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.paynow-confirm-blik img {
+    max-width: 35%;
+}
+
+.paynow-return img {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .paynow-return img {
+        float: none !important;
+        margin-bottom: .5rem;
+        max-width: 50%;
+    }
+
+    .paynow-blik-form .paynow-payment-option-container  label {
+        padding-bottom: 0.5rem;
+    }
+
+    .paynow-blik-form .paynow-payment-option-container  button {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .paynow-payment-option-container {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,86 @@
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` DROP INDEX IF EXISTS `id_product`
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` ADD UNIQUE(`id_product`,`id_combination`,`id_shop`,`id_currency`,`date`)
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                         `price` `price` DECIMAL(20,6)  NULL
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                         `sale` `sale` DECIMAL(20,6)  NULL
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                             `date` `date` DATE  NOT NULL
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                         `date` `date` DATE  NOT NULL
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` DROP INDEX IF EXISTS `id_product`
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` ADD UNIQUE(`id_product`,`id_combination`,`id_shop`,`id_currency`,`date`)
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                         `price` `price` DECIMAL(20,6)  NULL
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                         `sale` `sale` DECIMAL(20,6)  NULL
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                             `date` `date` DATE  NOT NULL
+
+##### SQL End
+##### SQL Start: 2023-04-04 11:45:48
+ALTER TABLE `ps_seigi_price_history` CHANGE
+                         `date` `date` DATE  NOT NULL
+
+##### SQL End
+##### SQL Start: 2024-06-05 14:26:27
+ALTER TABLE `ps_seigi_price_history_low` CHANGE
+                             `date_price` `date_price` DATE  NULL
+
+##### SQL End
+##### SQL Start: 2024-06-05 14:26:27
+ALTER TABLE `ps_seigi_price_history_low` CHANGE
+                             `date_sale` `date_sale` DATE  NULL
+
+##### SQL End
+##### SQL Start: 2024-06-05 14:26:27
+ALTER TABLE `ps_seigi_price_history_low` CHANGE
+                             `expiration` `expiration` DATE  NOT NULL
+
+##### SQL End
+##### SQL Start: 2024-06-05 14:26:27
+ALTER TABLE `ps_seigi_price_history_low` CHANGE
+                         `date_price` `date_price` DATE  NULL
+
+##### SQL End
+##### SQL Start: 2024-06-05 14:26:27
+ALTER TABLE `ps_seigi_price_history_low` CHANGE
+                         `date_sale` `date_sale` DATE  NULL
+
+##### SQL End
+##### SQL Start: 2024-06-05 14:26:27
+ALTER TABLE `ps_seigi_price_history_low` CHANGE
+                         `expiration` `expiration` DATE  NOT NULL
+
+##### SQL End

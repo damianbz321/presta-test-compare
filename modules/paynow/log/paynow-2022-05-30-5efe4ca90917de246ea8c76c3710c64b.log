@@ -1,0 +1,14 @@
+2022-05-30 13:17:12.746022 a716bfdddde5ba560ef10d9c75583891 INFO Processing payment for cart {cartId=356, externalId=356_6294a7b8b6215}
+2022-05-30 13:17:13.205224 a716bfdddde5ba560ef10d9c75583891 ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=356_6294a7b8b6215, message=Invalid authorization code for BLIK payment}
+2022-05-30 13:17:30.743752 a716bfdddde5ba560ef10d9c75583891 INFO Processing payment for cart {cartId=356, externalId=356_6294a7cab593a}
+2022-05-30 13:17:30.750523 a716bfdddde5ba560ef10d9c75583891 INFO Processing payment for cart {cartId=356, externalId=356_6294a7cab73af}
+2022-05-30 13:17:31.141141 a716bfdddde5ba560ef10d9c75583891 ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=356_6294a7cab593a, message=Invalid authorization code for BLIK payment}
+2022-05-30 13:17:31.151840 a716bfdddde5ba560ef10d9c75583891 INFO Processing payment for cart {cartId=356, externalId=356_6294a7cb25116}
+2022-05-30 13:17:31.179066 a716bfdddde5ba560ef10d9c75583891 ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=356_6294a7cab73af, message=Invalid authorization code for BLIK payment}
+2022-05-30 13:17:31.339359 a716bfdddde5ba560ef10d9c75583891 ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=356_6294a7cb25116, message=Invalid authorization code for BLIK payment}
+2022-05-30 13:17:34.398437 a716bfdddde5ba560ef10d9c75583891 INFO Processing payment for cart {cartId=356, externalId=356_6294a7ce6145b}
+2022-05-30 13:17:34.601524 a716bfdddde5ba560ef10d9c75583891 INFO Processing payment for cart {cartId=356, externalId=356_6294a7ce92da8}
+2022-05-30 13:17:34.746275 a716bfdddde5ba560ef10d9c75583891 ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=356_6294a7ce6145b, message=Invalid authorization code for BLIK payment}
+2022-05-30 13:17:34.789431 a716bfdddde5ba560ef10d9c75583891 ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=356_6294a7ce92da8, message=Invalid authorization code for BLIK payment}
+2022-05-30 13:17:35.131897 a716bfdddde5ba560ef10d9c75583891 INFO Processing payment for cart {cartId=356, externalId=356_6294a7cf2032b}
+2022-05-30 13:17:35.326148 a716bfdddde5ba560ef10d9c75583891 ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=356_6294a7cf2032b, message=Invalid authorization code for BLIK payment}

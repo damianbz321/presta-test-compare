@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>seigitagmanager</name>
+    <displayName><![CDATA[TagManager]]></displayName>
+    <version><![CDATA[2.0.10]]></version>
+    <description><![CDATA[Pixele i tagi remarketingowe w jednym module. Facebook, Google i inne]]></description>
+    <author><![CDATA[SEIGI]]></author>
+    <tab><![CDATA[frontend]]></tab>
+	<confirmUninstall><![CDATA[Are you sure about removing these details?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

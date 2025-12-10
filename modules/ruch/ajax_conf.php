@@ -1,0 +1,1 @@
+<?php define("_PS_ADMIN_DIR_", "/home/mgmplay/ftp/hifoodsklep/admin6170fbwky"); ?>

@@ -1,0 +1,29 @@
+.laber-mediaBody{
+	overflow:hidden;
+}
+.laberContentProduct{
+	position:relative;
+	min-height: 323px;
+}
+.laberContentProduct p.loanding{
+	background: url(../img/loading.gif) no-repeat center center; 
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.column   .laber-image{
+	margin-right:15px;
+}
+.laberContentProduct .item-inner .product_img_link{
+	display:block;
+}
+.laberContentProduct .item-inner .product_img_link img{
+	width:100%;
+}
+.regular-price{
+	color: #acaaa6;
+    font-size: 0.875rem;
+    text-decoration: line-through;
+}

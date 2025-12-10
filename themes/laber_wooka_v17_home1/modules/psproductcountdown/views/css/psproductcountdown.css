@@ -1,0 +1,84 @@
+.psproductcountdown {
+    font-weight: normal;
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+}
+.pspc-main {
+    white-space: nowrap;
+}
+.pspc-main .time {
+    min-width: 3.5em;
+}
+#left_column .psproductcountdown,
+#right_column .psproductcountdown {
+    font-size: 10px;
+}
+.psproductcountdown h4 {
+    margin-top: 0;
+}
+.psproductcountdown .hide_zero_weeks .weeks {
+    display: none;
+}
+.product_list .psproductcountdown.over_img.pspc15, .product_list .psproductcountdown.custom_over_img.pspc15,
+#product_list .psproductcountdown.over_img.pspc15, #product_list .psproductcountdown.custom_over_img.pspc15 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin-top: -25px;
+}
+.product_list .psproductcountdown.over_img, .product_list .psproductcountdown.custom_over_img,
+#product_list .psproductcountdown.over_img, #product_list .psproductcountdown.custom_over_img {
+    position: absolute;
+    top: 100px;
+    right: 1px;
+    left: 1px;
+}
+.product_list .hovered .psproductcountdown.over_img, .product_list .hovered .psproductcountdown.custom_over_img,
+#product_list .hovered .psproductcountdown.over_img, #product_list .hovered .psproductcountdown.custom_over_img {
+    display: none;
+}
+.product_list .left-block .psproductcountdown.over_img, .product_list .left-block .psproductcountdown.custom_over_img,
+#product_list .left-block .psproductcountdown.over_img, #product_list .left-block .psproductcountdown.custom_over_img {
+    display: none;
+}
+#product_list .ajax_block_product:hover .psproductcountdown.over_img,
+#product_list .ajax_block_product:hover .psproductcountdown.custom_over_img {
+    display: none;
+}
+
+#product .psproductcountdown {
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 0;
+    clear: both;
+}
+#product .pb-center-column .psproductcountdown {
+    text-align: left;
+}
+.pspc-offer-ends {
+    display: none;
+}
+.ajax_block_product {
+    position: relative;
+}
+
+/*1.7*/
+
+.psproductcountdown .label {
+    text-align: center;
+}
+
+#product .pspc17 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+#product .pspc17.displayProductButtons {
+    margin-top: 1.5rem;
+}
+#product .pspc17.displayFooterProduct {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}

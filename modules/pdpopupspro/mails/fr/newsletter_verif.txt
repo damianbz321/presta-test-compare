@@ -1,0 +1,11 @@
+Bonjour,
+
+
+Activation requise
+
+Nous vous remercions de votre abonnement à notre newsletter, pour confirmer cette demande veuillez cliquer sur le lien ci-dessous:
+{verif_url}
+
+
+
+{shop_name} [{shop_url}] propulsé par PrestaShop(tm) [http://www.prestashop.com/]

@@ -1,0 +1,14 @@
+Hi,
+
+
+Newsletter subscription
+
+Thank you for your subscription to our newsletter in {shop_name}
+
+By way of saying thanks, we have the pleasure to offer you the following voucher: {voucher_num}
+
+Simply copy/paste this code during the payment process for your next order.
+
+
+
+{shop_name} [{shop_url}] powered by PrestaShop(tm) [http://www.prestashop.com/]

@@ -1,0 +1,10 @@
+Hi,
+
+
+Newsletter subscription
+
+Thank you for your subscription to our newsletter in {shop_name}
+
+
+
+{shop_name} [{shop_url}] powered by PrestaShop(tm) [http://www.prestashop.com/]

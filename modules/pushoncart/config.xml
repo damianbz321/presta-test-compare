@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>pushoncart</name>
+	<displayName><![CDATA[Push On Cart]]></displayName>
+	<version><![CDATA[2.5.1]]></version>
+	<description><![CDATA[Offer discounted products to clients on payment page]]></description>
+	<author><![CDATA[Prestashop]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

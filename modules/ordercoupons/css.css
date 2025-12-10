@@ -1,0 +1,178 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-2021 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ * @version   of the vouchers engine: 4.3
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+ */
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'arial', sans-serif;
+}
+
+#cssmenu:before, #cssmenu:after, #cssmenu > ul:before, #cssmenu > ul:after {
+    content: '';
+    display: table;
+}
+
+#cssmenu:after, #cssmenu > ul:after {
+    clear: both;
+}
+
+#cssmenu {
+    zoom: 1;
+    height: 69px;
+    background: url(img/bottom-bg.png) repeat-x center bottom;
+    border-radius: 2px;
+}
+
+#cssmenu ul {
+    background: url(img/nav-bg.png) repeat-x 0px 4px;
+    height: 69px;
+}
+
+#cssmenu ul li {
+    float: left;
+    list-style: none;
+}
+
+#cssmenu ul li a {
+    box-sizing: content-box;
+    display: block;
+    height: 37px;
+    padding: 22px 10px 0;
+    margin: 4px 2px 0;
+    border-radius: 2px 2px 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+    opacity: .9;
+}
+
+#cssmenu ul li:first-child a {
+    margin: 4px 2px 0 0;
+}
+
+#cssmenu ul li a:hover, #cssmenu ul li.active a {
+    background: url(img/color.png) center bottom;
+    display: block;
+    height: 37px;
+    margin-top: 0px;
+    padding-top: 26px;
+    color: #9b4106;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+    opacity: 1;
+}
+
+.language_flags {
+    display: none;
+}
+
+.language_flags {
+    display: none;
+}
+
+.flags_block {
+    position: relative;
+    clear: both;
+    z-index: 300;
+}
+
+.flags_block .language_flags {
+    background: #FFF;
+    top: 0px;
+    position: absolute;
+    clear: both;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px #c0c0c0;
+    border: 1px solid #c3c3c3;
+}
+
+.margin-form {
+    padding: 10px;
+    background: #fdfff5;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+}
+
+.ps16 .margin-form .preference_description {
+    display: block;
+    clear: both;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.ps16 .margin-form .preference_description br {
+    display: none;
+    text-decoration: underline
+}
+
+.ps16 .margin-form .t {
+    margin-right: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: -4px;
+}
+
+.ps16 .language_flags {
+    display: none;
+}
+
+.ps16 #launcher {
+    bottom: 100px !important;
+}
+
+.ps16 .language_flags {
+    display: none;
+}
+
+.flags_block img {
+    cursor: pointer;
+}
+
+.flags_block {
+    position: relative;
+    clear: both;
+    z-index: 300;
+}
+
+.flags_block .language_flags {
+    background: #FFF;
+    top: 0px;
+    position: absolute;
+    clear: both;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px #c0c0c0;
+    border: 1px solid #c3c3c3;
+}
+
+.ps16 #topmenu-horizontal-module span.txt {
+    margin-top: 3px;
+    width: 60px !important;
+    display: block;
+    text-align: center;
+}
+
+.ps16 #topmenu-horizontal-module .addnew, #topmenu-horizontal-module .btnpro {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -border-radius: 4px;
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 72px !important;
+    height: 72px !important;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    border: 1px dotted #c0c0c0;
+}

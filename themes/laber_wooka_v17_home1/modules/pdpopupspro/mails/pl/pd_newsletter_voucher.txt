@@ -1,0 +1,17 @@
+Witaj,
+
+
+Newsletter - subskrypcja
+ 
+Dziękujemy za zapisanie się do newsletter-a w sklepie {shop_name}
+ 
+W ramach podziękowania przynalismy Ci rabat w wysokość {value} na Twoje kolejne zakupy. Oferta jest ważna tylko {days} dni, więc nie zmarnuj okazji!
+
+ 
+Kod Twojego kuponu: {voucher_num}
+
+Wystarczy jak go wprowadzisz podczas procesu zamówienia w koszyku zakupowym.	
+
+
+
+{shop_name} [{shop_url}] na silniku PrestaShop(tm) [http://www.prestashop.com/]

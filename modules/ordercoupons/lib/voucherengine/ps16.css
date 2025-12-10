@@ -1,0 +1,106 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-2021 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ * @version   of the vouchers engine: 5.5
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+*/
+
+.margin-form {
+    padding:10px;
+    background: #fdfff5;
+    border:1px solid #dedede;
+    margin-bottom: 20px;
+}
+
+.margin-form .preference_description {
+    display:block;
+    clear:both;
+    font-size:12px;
+    padding-top:10px;
+}
+
+.margin-form .preference_description br {
+    display:none;
+    text-decoration: underline
+}
+
+.margin-form .t {
+    margin-right:20px;
+    margin-left: 5px;
+    position:relative;
+    top:-4px;
+}
+
+
+
+.language_flags {
+    display: none;
+}
+
+#launcher {
+    bottom: 100px !important;
+}
+
+.language_flags {
+    display: none;
+}
+
+.flags_block img {
+    cursor: pointer;
+}
+
+.flags_block {
+    position: relative;
+    clear: both;
+    z-index: 300;
+}
+
+.flags_block .language_flags {
+    background: #FFF;
+    top: 0px;
+    position: absolute;
+    clear: both;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px #c0c0c0;
+    border: 1px solid #c3c3c3;
+}
+
+.voucherEngineFlags .dropdown-toggle{
+    margin-left:5px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.voucherEngineFlags .dropdown-menu {
+    display:none;
+}
+
+.voucherEngineFlags.open .dropdown-menu {
+    display:block!important;
+}
+
+.dropdown-menu {
+    background: #FFF;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    padding: 10px;
+    list-style: none;
+}
+
+.dropdown-menu li {
+    border-left:3px solid black;
+    padding:5px 5px;
+    font-size: 14px;
+    border-bottom: 1px dotted #dedede;
+    display:block;
+}
+
+.dropdown-menu li:hover {
+    border-left:3px solid red;
+    padding:5px 5px;
+}

@@ -1,0 +1,276 @@
+.phdescription-admin-body {}
+.phdescription-admin-body .phdescription-admin-form-create {
+    margin: 15px 0;
+    border: 1px solid #eaebec;
+    background-color: #fff;
+    display: none;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box {
+    display: none;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box > div.head {
+    background-color: #f7f7f7;
+    color: #41444b;
+    padding: 10px 15px;
+    margin: 0;
+    border-bottom: 1px solid #eaebec;
+    display: block;
+    overflow: hidden;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box > div.head ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box > div.head ul li{
+    float: left;
+    font-size: 24px;
+    padding: 0 5px;
+    margin-right: 20px;
+    color: #363a41;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box > div.head ul li.active{
+    color: #0fb1d2;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box > div.head .alert {
+    float: right;
+    width: 30%;
+    margin: 0;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box .form-group {
+    padding: 15px;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box .form-group .row {}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box .form-group .row > div:first-child {
+    border-right: 1px solid #ccc;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-1 .form-group .row > div:first-child {
+    border: none;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-2 .form-group .row > div:first-child {
+    border: none;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box .form-group label.form-control {
+    padding: 15px;
+    border: 1px solid #d1d4d7;
+    border-bottom: none;
+}
+.phdescription-admin-body .phdescription-admin-form-create .form-create-box p.alert {
+    margin:  0 15px 15px;
+}
+
+.phdescription-admin-form-add {
+    padding: 15px;
+    bordeR: 1px solid #d1d4d7;
+    display: none;
+    margin: 15px 0;
+}
+.phdescription-admin-form-add .createNewElement {
+    margin-top: 10px;
+}
+.phdescription-admin-form-add .head ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.phdescription-admin-form-add .head ul li{
+    float: left;
+    font-size: 24px;
+    padding: 0 5px;
+    margin-right: 20px;
+    color: #363a41;
+    cursor: pointer;
+}
+.phdescription-admin-form-add .head ul li:hover {
+    color: #0fb1d2;
+}
+
+.phdescription-admin-footer {}
+.phdescription-admin-footer .item.header {
+    background-color: #a0d0eb;
+    margin-bottom: 15px;
+}
+.phdescription-admin-footer .item.header > div {
+    padding: 5px 10px;
+    font-weight: 700;
+}
+.phdescription-admin-footer .item.element {
+    overflow: hidden;
+}
+.phdescription-admin-footer .item.element .showElement {
+    border: 1px solid #eaebec;
+    background: #f7f7f7;
+    margin: 10px 0;
+}
+.phdescription-admin-footer .item.element .itemElement {
+    margin: 0 0 1px;
+    cursor: move;
+    border: 1px solid #d1d4d7;
+    /*background-color: #d1d4d7;*/
+}
+.phdescription-admin-footer .item.element .itemElement:hover {
+    background-color: #f1f1f1;
+}
+.phdescription-admin-footer .item.element .itemElement .editBtn {
+    width: 100px;
+}
+.phdescription-admin-footer .item.element .editElement {
+    overflow: hidden;
+    /*background-color: #d1d4d7;*/
+    margin: -1px 0 1px;
+    border: 1px solid #eaebec;
+    background: #fff;
+}
+.phdescription-admin-footer .item.element .editElement.showElement {
+    display: block;
+}
+.phdescription-admin-footer .item.element .editElement.showElement .editBtn {
+    display: none;
+}
+.phdescription-admin-footer .item.element .itemElement.showElement .editBtn {
+    display: none;
+}
+.phdescription-admin-footer .item.element .editElement .form-create-box p.head {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.phdescription-admin-footer .item.element .editElement .form-create-box label {
+    font-weight: 700;
+}
+.phdescription-admin-footer .item.element > div {
+    color: #000;
+    padding: 13px 10px 11px;
+}
+.phdescription-admin-footer .item.element > div {}
+.sortableItem .position {
+    cursor: move;
+}
+.sortableItem .actions {
+    text-align: right;
+}
+.sortableItem .type ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sortableItem .type ul li {
+    float: left;
+    font-size: 24px;
+    padding: 0 5px;
+    margin-right: 20px;
+    color: #363a41;
+}
+.sortableItem .type ul li.active {
+    color: #0fb1d2;
+}
+.editElement {
+    display: none;
+}
+.editElement .form-create-box {
+    /*background-color: #f1f9ff;*/
+    /*margin: 0 15px;*/
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.langBox.hidden {
+    display: none;
+}
+.form-create-box .mce-tinymce {
+    background-color: #fff;
+}
+
+.form-create-box_ .mce-tinymce:nth-child(2) {
+    display: none !important;
+    visibility: hidden !important;
+}
+.form-create-box_ .mce-tinymce:nth-child(3) {
+    display: none !important;
+    visibility: hidden !important;
+}
+.goToMOdule {
+    cursor: pointer;
+}
+
+.btnAnimated {
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+    0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+    0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+    0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.langBox .mce-edit-area iframe {
+    min-height: 200px !important;
+}
+
+.addNewElement {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.image-box {
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 12px;
+    width: 54px;
+    margin: 15px auto;
+    display: block;
+    cursor: pointer;
+}
+.image-box i {
+    color: #ccc;
+    font-size: 40px;
+}
+small.hint {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.image-box:hover {
+    border-color: #999;
+}
+.image-box:hover i {
+    color: #999;
+}
+
+.form-create-1 img {
+    max-width: 1080px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: block;
+    margin: 15px auto;
+}
+.form-create-3 img, .form-create-4 img, .form-create-5 img {
+    max-width: 540px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: block;
+    margin: 15px auto;
+}

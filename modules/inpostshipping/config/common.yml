@@ -1,0 +1,88 @@
+services:
+  inpost.shipping.module:
+    class: InPostShipping
+    factory: [ 'Module', 'getInstanceByName' ]
+    public: false
+    arguments:
+      - 'inpostshipping'
+
+  InPostShipping: '@inpost.shipping.module'
+
+  inpost.shipping.shop_context:
+    class: InPost\Shipping\PrestaShopContext
+    public: true
+
+  InPost\Shipping\PrestaShopContext: '@inpost.shipping.shop_context'
+
+  inpost.shipping.hook_dispatcher:
+    class: InPost\Shipping\HookDispatcher
+    public: true
+    arguments:
+      - '@inpost.shipping.module'
+      - '@inpost.shipping.shop_context'
+
+  InPost\Shipping\HookDispatcher: '@inpost.shipping.hook_dispatcher'
+
+  inpost.shipping.adapter.translate:
+    class: InPost\Shipping\Adapter\TranslateAdapter
+    public: true
+    arguments:
+      - '@inpost.shipping.shop_context'
+
+  inpost.shipping.adapter.assets_manager:
+    class: InPost\Shipping\Adapter\AssetsManager
+    public: true
+    arguments:
+      - '@inpost.shipping.module'
+      - '@inpost.shipping.shop_context'
+
+  inpost.shipping.configuration.shipx:
+    class: InPost\Shipping\Configuration\ShipXConfiguration
+    public: true
+
+  InPost\Shipping\Configuration\ShipXConfiguration: '@inpost.shipping.configuration.shipx'
+
+  inpost.shipping.configuration.szybkie_zwroty:
+    class: InPost\Shipping\Configuration\SzybkieZwrotyConfiguration
+    public: true
+
+  InPost\Shipping\Configuration\SzybkieZwrotyConfiguration: '@inpost.shipping.configuration.szybkie_zwroty'
+
+  inpost.shipping.configuration.carriers:
+    class: InPost\Shipping\Configuration\CarriersConfiguration
+    public: true
+
+  InPost\Shipping\Configuration\CarriersConfiguration: '@inpost.shipping.configuration.carriers'
+
+  inpost.shipping.data_provider.customer_choice:
+    class: InPost\Shipping\DataProvider\CustomerChoiceDataProvider
+    public: true
+
+  InPost\Shipping\DataProvider\CustomerChoiceDataProvider: '@inpost.shipping.data_provider.customer_choice'
+
+  inpost.shipping.data_provider.point:
+    class: InPost\Shipping\DataProvider\PointDataProvider
+    public: true
+
+  inpost.shipping.data_provider.language:
+    class: InPost\Shipping\DataProvider\LanguageDataProvider
+    public: false
+    arguments:
+      - '@inpost.shipping.shop_context'
+
+  InPost\Shipping\DataProvider\LanguageDataProvider: '@inpost.shipping.data_provider.language'
+
+  inpost.shipping.shipx.factory.request:
+    class: InPost\Shipping\ShipX\RequestFactory\ShipXRequestFactory
+    public: true
+    arguments:
+      - '@inpost.shipping.configuration.shipx'
+
+  InPost\Shipping\ShipX\RequestFactory\ShipXRequestFactory: '@inpost.shipping.shipx.factory.request'
+
+  inpost.shipping.presenter.point_address:
+    class: InPost\Shipping\Presenter\PointAddressPresenter
+    public: true
+    arguments:
+      - '@inpost.shipping.module'
+      - '@inpost.shipping.data_provider.language'

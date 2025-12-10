@@ -1,0 +1,64 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-9999 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+ */
+
+.ppbCarouselBlock .ppbback, .ppbCarouselBlock .ppbback {
+    font-size: 36px;
+    color: #c0c0c0;
+    cursor: pointer;
+    position: absolute;
+    right: 55px;
+}
+
+.ppbf9, .ppbb9 {
+    cursor: pointer;
+}
+
+.ppbCarouselBlock .ppbforward, .ppbCarouselBlock .ppbforward {
+    font-size: 36px;
+    color: #c0c0c0;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+.ppbCarouselBlock .ppbforward:hover, .ppbCarouselBlock .ppbforward:hover {
+    color: #333;
+}
+
+.ppbCarouselBlock .ppbback:hover, .ppbCarouselBlock .ppbback:hover {
+    color: #333;
+}
+
+.ppbContainerBlockMainDiv {
+    position: relative !important;
+}
+
+.ppbContainerBlockMainDiv article {
+    margin: 0 !important;
+}
+
+.ppbContainerBlockMainDiv .highlighted-informations, .ppbContainerBlockMainDiv .product-description, .ppbCon.ppbContainerBlockMainDiv .highlighted-informations, .ppbContainerBlockMainDiv .thumbnail-container {
+    width: 100%;
+    text-align: center;
+}
+
+ .product-list .grid.columns-4 .zoneCarousel .product-miniature {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+
+.zoneCarousel {
+    padding: 0 10px !important;
+    display: inline-block !important;
+    float: left !important;
+    clear: none !important;
+}

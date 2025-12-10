@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_f298f2ee1ad591748be694f09bab7199'] = 'PD Facebook Pixel Tracking';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_cf506c66d1720b62b1e4f763e7ca8535'] = 'Dodaje Facebook Pixel do twojej strony i integuje go z standardowymi zdarzeniami ';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_f2b97e7a0fc83349bea2038314d788fb'] = 'Napewno chcesz odinstalować moduł i usunąć dane konfiguracyjne ?';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_191d1a4d7d064693a8b2f5865eda611c'] = 'Musisz podać ID śledzenia';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_c888438d14855d7d96a2724ee9c306bd'] = 'Zapisano ustawienia';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_b04f2c8a90cfc485fc990dc8dc4ba293'] = 'Konfiguracja modułu';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_1e605b28db70c2de78a3b3ebd2536307'] = 'Facebook Pixel Id śledzenia';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_7c3b701b4861ca950fa48ffb18380c79'] = 'Tutaj musisz wprowadzić identyfikator Pixel-a Facebook, możesz go znaleźć tutaj:  ';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_aed5b8f86c59c36184912508de7077e9'] = 'Menadżera reklam';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_835e6ab190c92e79190c3fcc7d14738c'] = 'Format / źródło id produktów';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_eff524ea2f1530567c9be5568d48079c'] = 'Możesz wybrać format / źródło id produktów przekazywane do Facebook-a tak by dopasować taki sam format jak w pliku XML ';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_4bacd7eee0c76aa2b36699cc9706bbec'] = ' Id produktu (domyślne) np. 123';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_ccd12cd08ecab562d4de1a02d2020eb9'] = 'Id produktu - Id atrybutu produktu np. 123-123';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_8a7b912dea6695daa5332d17c2907f49'] = 'Id produktu _ Id atrybutu produktu np. 123_123';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_63d5049791d9d79d86e9a108b0a999ca'] = 'Indeks produktu (referencja) np. ABC123';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_51b2e055027d9ef6255110810fb06207'] = 'Ean13';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_015707d67a3b5ffe5453577fe1d16374'] = 'Prefix ID produktu';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_39a1e4ccba20c3c7a8229e20c15b5f68'] = 'Możesz dodać prefix do id produktów tak by te przekazywane przez moduł do Facebooka zgadzały sie z feedem produktowym';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>pdfacebookpixeltracking_d4dccb8ca2dac4e53c01bd9954755332'] = 'Zapisz ustawienia';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_e312c3e0208dc1340a5f86d1f8e18379'] = 'Jak działa moduł?';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_c441ea0db715423ebc03c91178afc827'] = 'By zacząć śledzić konwersje i budować grupy odbiorców, prosimy wykonać jedna z poniższych czynności.';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_71fec8e9119d5e982fd704f2d8cdf92d'] = '1. W menadżerze rekalm Facebooka';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_9c1328cb197d87107c581e262ceee6a3'] = '1.1 By zdobyć Id';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_39acfdc01c9a3f8ae6870e65a8f127a1'] = 'Zdobądź id facebook pixel-a';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_671f39ea142a4bb73b2a563fd4096fd2'] = 'Facebook Menagdzer Pixeli';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_7a8170288301f335f9d316c79c44e019'] = 'i znajdź id pikseli na prawym bocznym pasku ekranu poniżej nazwy konta.';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_6b597a92ac055304e2d86a4b7056bfee'] = '1.2 Skopiuj i wklej kod w formularzu poniżej i nacpiśnij zapisz';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_c13696e1036fb7211e3712f0a9004a20'] = '2. W Facebook Power Editor';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_b52e2b1aec90e946ef9fef9a569e7a9c'] = '2.1 Idź do';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_85ea1c9c020de59b264d5c9a5b505a77'] = 'Facebook Power Editor';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_f383dd7ad097685dd0028382f5469671'] = '2.2 Naciśnij na Narzędzia > Pixele';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_7f1ad49d6e0bfbb33cdc4f3876e22ca6'] = '2.3 Znajdź id pikseli na prawym bocznym pasku ekranu poniżej nazwy konta.';
+$_MODULE['<{pdfacebookpixeltracking}prestashop>configure_ca04c0484715192e3f7256c38e1c4ef9'] = '2.4 Skopiuj i wklej kod w formularzu poniżej i naciśnij zapisz';

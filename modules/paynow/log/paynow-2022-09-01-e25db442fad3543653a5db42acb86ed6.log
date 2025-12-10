@@ -1,0 +1,33 @@
+2022-09-01 9:37:31.261955 42da6254243cf7dca4afbdabbd73f7df INFO Processing payment for cart {cartId=614, externalId=614_6310613b3ff35}
+2022-09-01 9:37:33.168176 42da6254243cf7dca4afbdabbd73f7df DEBUG Created paynow data entry {cartId=614, externalId=614_6310613b3ff35}
+2022-09-01 9:37:33.168956 42da6254243cf7dca4afbdabbd73f7df INFO Payment has been successfully created {cartId=614, externalId=614_6310613b3ff35, paymentId=BLBO-1S2-L2E-9SO, status=PENDING}
+2022-09-01 9:37:33.170619 42da6254243cf7dca4afbdabbd73f7df DEBUG Setting optimistic lock on paynow data {cartId=614, externalId=614_6310613b3ff35}
+2022-09-01 9:37:33.172624 42da6254243cf7dca4afbdabbd73f7df DEBUG Successfully set up optimistic lock on paynow data {externalId=614_6310613b3ff35}
+2022-09-01 9:37:33.173252 42da6254243cf7dca4afbdabbd73f7df INFO Creating an order from cart {cartId=614, externalId=614_6310613b3ff35}
+2022-09-01 9:37:33.629592 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=614_6310613b3ff35, paymentId=BLBO-1S2-L2E-9SO, status=PENDING}
+2022-09-01 9:37:33.634182 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=614, externalId=614_6310613b3ff35, orderId=0, orderReference=, paymentId=BLBO-1S2-L2E-9SO, fromStatus=NEW, toStatus=PENDING}
+2022-09-01 9:37:33.635123 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=614, externalId=614_6310613b3ff35, orderId=0, orderReference=, paymentId=BLBO-1S2-L2E-9SO}
+2022-09-01 9:37:33.988662 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=614_6310613b3ff35, paymentId=BLBO-1S2-L2E-9SO, status=NEW}
+2022-09-01 9:37:33.991111 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=614, externalId=614_6310613b3ff35, orderId=0, orderReference=, paymentId=BLBO-1S2-L2E-9SO, fromStatus=NEW, toStatus=NEW}
+2022-09-01 9:37:33.992106 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=614, externalId=614_6310613b3ff35, orderId=0, orderReference=, paymentId=BLBO-1S2-L2E-9SO}
+2022-09-01 9:37:35.628740 42da6254243cf7dca4afbdabbd73f7df INFO An order has been successfully created {cartId=614, externalId=614_6310613b3ff35, orderId=133, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO}
+2022-09-01 9:37:35.629740 42da6254243cf7dca4afbdabbd73f7df DEBUG Unsetting optimistic lock on paynow data {cartId=614, externalId=614_6310613b3ff35}
+2022-09-01 9:37:35.632185 42da6254243cf7dca4afbdabbd73f7df DEBUG Successfully unset optimistic lock on paynow data {externalId=614_6310613b3ff35}
+2022-09-01 9:37:35.634963 42da6254243cf7dca4afbdabbd73f7df DEBUG Successfully updated payment data {orderId=133, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO}
+2022-09-01 9:37:36.081598 42da6254243cf7dca4afbdabbd73f7df INFO Retrieving payment status {paymentId=BLBO-1S2-L2E-9SO}
+2022-09-01 9:37:36.198124 42da6254243cf7dca4afbdabbd73f7df INFO Retrieved payment status {paymentId=BLBO-1S2-L2E-9SO, status=PENDING}
+2022-09-01 9:37:36.198961 42da6254243cf7dca4afbdabbd73f7df INFO Processing order's state update {cartId=614, externalId=614_6310613b3ff35, orderId=133, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO, fromStatus=NEW, toStatus=PENDING}
+2022-09-01 9:37:36.202734 42da6254243cf7dca4afbdabbd73f7df DEBUG Successfully updated payment data {paymentId=BLBO-1S2-L2E-9SO, status=PENDING}
+2022-09-01 9:37:36.203593 42da6254243cf7dca4afbdabbd73f7df INFO Changed order's state {cartId=614, externalId=614_6310613b3ff35, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO, status=PENDING}
+2022-09-01 9:37:39.970083 42da6254243cf7dca4afbdabbd73f7df INFO Checking order's payment status {externalId=614_6310613b3ff35}
+2022-09-01 9:37:39.971564 42da6254243cf7dca4afbdabbd73f7df INFO Retrieving payment status {paymentId=BLBO-1S2-L2E-9SO}
+2022-09-01 9:37:40.057555 42da6254243cf7dca4afbdabbd73f7df INFO Retrieved payment status {paymentId=BLBO-1S2-L2E-9SO, status=PENDING}
+2022-09-01 9:37:40.059251 42da6254243cf7dca4afbdabbd73f7df INFO Processing order's state update {cartId=614, externalId=614_6310613b3ff35, orderId=133, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO, fromStatus=PENDING, toStatus=PENDING}
+2022-09-01 9:37:40.060303 42da6254243cf7dca4afbdabbd73f7df ERROR An error occurred during updating state {code=0, externalId=614_6310613b3ff35, paymentId=BLBO-1S2-L2E-9SO, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-09-01 9:37:40.864104 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=614_6310613b3ff35, paymentId=BLBO-1S2-L2E-9SO, status=CONFIRMED}
+2022-09-01 9:37:40.869585 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=614, externalId=614_6310613b3ff35, orderId=133, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-09-01 9:37:40.871745 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=614_6310613b3ff35, orderId=133, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO, paymentStatus=CONFIRMED, state=2}
+2022-09-01 9:37:41.782943 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=614_6310613b3ff35, orderId=133, orderReference=JJLMIQGQJ,  paymentId=BLBO-1S2-L2E-9SO, paymentStatus=CONFIRMED, state=2, historyId=494}
+2022-09-01 9:37:41.786729 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BLBO-1S2-L2E-9SO, status=CONFIRMED}
+2022-09-01 9:37:41.787480 5894f5bae910a7be2366f9518f0baedb INFO Changed order's state {cartId=614, externalId=614_6310613b3ff35, orderReference=JJLMIQGQJ, paymentId=BLBO-1S2-L2E-9SO, status=CONFIRMED}
+2022-09-01 9:37:42.941215 42da6254243cf7dca4afbdabbd73f7df INFO Checking order's payment status {externalId=614_6310613b3ff35}

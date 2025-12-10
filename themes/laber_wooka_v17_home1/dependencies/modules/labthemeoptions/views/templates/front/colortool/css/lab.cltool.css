@@ -1,0 +1,179 @@
+
+.cl-pattern .cl-image {
+	border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin: 0 5px 5px 0;
+    width: 22px;	
+}
+.cl-pattern .cl-image:hover {
+	border-color: #000;
+}
+.cl-pattern .pattern1 {
+	background-image: url("../images/pattern/pattern1.png");
+}
+.cl-pattern .pattern2 {
+	background-image: url("../images/pattern/pattern2.png");
+}
+.cl-pattern .pattern3 {
+	background-image: url("../images/pattern/pattern4.png");
+}
+.cl-pattern .pattern4 {
+	background-image: url("../images/pattern/pattern4.png");
+}
+.cl-pattern .pattern5 {
+	background-image: url("../images/pattern/pattern5.png");
+}
+.cl-pattern .pattern6 {
+	background-image: url("../images/pattern/pattern6.png");
+}
+
+.cl-pattern .pattern7 {
+	background-image: url("../images/pattern/pattern7.png");
+}
+
+.cl-pattern .pattern8 {
+	background-image: url("../images/pattern/pattern8.png");
+}
+.cl-pattern .pattern9 {
+	background-image: url("../images/pattern/pattern9.png");
+}
+
+.cl-pattern .pattern10 {
+	background-image: url("../images/pattern/pattern10.png");
+}
+
+.cl-pattern .pattern11 {
+
+	background-image: url("../images/pattern/pattern11.png");
+
+}
+
+.cl-pattern .pattern12 {
+
+	background-image: url("../images/pattern/pattern12.png");
+
+}
+
+.cl-pattern .pattern13 {
+
+	background-image: url("../images/pattern/pattern13.png");
+
+}
+
+.cl-pattern .pattern14 {
+
+	background-image: url("../images/pattern/pattern14.png");
+
+}
+.cl-pattern .pattern15 {
+
+	background-image: url("../images/pattern/pattern15.png");
+
+}
+.cl-pattern .pattern16 {
+
+	background-image: url("../images/pattern/pattern16.png");
+
+}
+
+.cl-pattern .pattern17 {
+
+	background-image: url("../images/pattern/pattern17.png");
+
+}
+
+.cl-pattern .pattern18 {
+
+	background-image: url("../images/pattern/pattern18.png");
+
+}
+
+.cl-pattern .pattern19 {
+	background-image: url("../images/pattern/pattern19.png");
+}
+
+.cl-pattern .pattern20 {
+	background-image: url("../images/pattern/pattern20.png");
+}
+
+.cl-pattern .pattern21 {
+	background-image: url("../images/pattern/pattern21.png");
+}
+
+.cl-pattern .pattern22 {
+
+	background-image: url("../images/pattern/pattern22.png");
+
+}
+
+.cl-pattern .pattern23 {
+
+	background-image: url("../images/pattern/pattern23.png");
+
+}
+
+.cl-pattern .pattern24 {
+
+	background-image: url("../images/pattern/pattern24.png");
+
+}
+
+.cl-pattern .pattern25 {
+
+	background-image: url("../images/pattern/pattern25.png");
+
+}
+
+.cl-pattern .pattern26 {
+
+	background-image: url("../images/pattern/pattern26.png");
+
+}
+
+.cl-pattern .pattern27 {
+
+	background-image: url("../images/pattern/pattern27.png");
+
+}
+
+.cl-pattern .pattern28 {
+
+	background-image: url("../images/pattern/pattern28.png");
+
+}
+
+.cl-pattern .pattern29 {
+
+	background-image: url("../images/pattern/pattern29.png");
+
+}
+
+.cl-pattern .pattern30 {
+
+	background-image: url("../images/pattern/pattern30.png");
+
+}
+.cl-row-reset {
+	text-align: center;
+	height: 28px;
+	padding: 10px 0;
+}
+.cl-row-reset .cl-reset {
+	width: 65px;
+	height: 28px;
+	display: block;
+	margin-left: 45px;
+	background: url("../../images/reset.png") no-repeat;
+}
+.cl-row-reset .cl-reset:hover {
+	cursor: pointer;
+}
+.cl-td-bg, .cl-td-text, .cl-td-link {
+    float: left;
+    width: 185px;
+}
+.cl-pattern .cl-image.active {
+    border-color: red;
+}

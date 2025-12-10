@@ -1,0 +1,88 @@
+	
+		
+	
+	
+		
+			
+				
+					
+						&nbsp;
+					
+						
+							
+								
+									
+										 
+								
+								
+									
+										Witaj {first_name} {last_name}!
+										Przypominamy, że oczekujemy na Twoje komentarze dotyczące zakupionych produktów w zamówieniu {order_reference}
+								
+								
+									
+										&nbsp;
+								
+								
+									
+										
+											
+												
+													&nbsp;
+													
+														
+															
+																
+																	
+																		Nazwa produktu
+																	
+																	
+																		Ilość
+																	
+																
+																{products}
+															
+														
+													
+													&nbsp;
+												
+											
+										
+									
+								
+								
+									
+										&nbsp;
+								
+								
+									
+										 
+								
+								
+									
+											Dziękujemy, za każdy dodany komentarz
+								
+								
+									
+										&nbsp;
+								
+								
+									
+										&nbsp;
+								
+								
+									
+										{shop_name}
+								
+							
+						
+					
+					
+						&nbsp;
+				
+			
+		
+		
+			&nbsp;
+	
+

@@ -1,0 +1,6 @@
+2022-06-10 9:37:43.814910 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=374_629d3f65066d6, paymentId=BL6E-W8O-GRH-298, status=PENDING}
+2022-06-10 9:37:43.822771 685d153b262b5fdb3d140f718b90c7ae WARNING Payment for order or cart not exists {externalId=374_629d3f65066d6, paymentId=BL6E-W8O-GRH-298, status=PENDING}
+2022-06-10 9:37:43.883459 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=374_629d3f65066d6, paymentId=BL6E-W8O-GRH-298, status=NEW}
+2022-06-10 9:37:43.885133 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=374_629d3f65066d6, paymentId=BL6E-W8O-GRH-298, status=NEW}
+2022-06-10 9:37:47.455852 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=374_629d3f65066d6, paymentId=BL6E-W8O-GRH-298, status=CONFIRMED}
+2022-06-10 9:37:47.457931 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=374_629d3f65066d6, paymentId=BL6E-W8O-GRH-298, status=CONFIRMED}

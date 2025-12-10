@@ -1,0 +1,10 @@
+Hola,
+
+
+Boletin de noticias
+
+Gracias por su suscripcion a nuestro boletin de novedades en {shop_name}
+
+
+
+{shop_name} [{shop_url}] creado por PrestaShop(tm) [http://www.prestashop.com/]

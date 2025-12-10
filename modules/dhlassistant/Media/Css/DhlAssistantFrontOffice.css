@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#dhlassistant .label
+{
+	color: black;
+}
+#dhlassistant_messages .success
+{
+	background-color: lightgreen;
+	text-align: center;
+}
+#dhlassistant_messages .error
+{
+	background-color: red;
+}
+.alert {
+	margin: 5px 0;
+}

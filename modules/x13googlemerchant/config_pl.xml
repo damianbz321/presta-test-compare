@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>x13googlemerchant</name>
+    <displayName><![CDATA[Google merchant XML]]></displayName>
+    <version><![CDATA[1.5.10]]></version>
+    <description><![CDATA[Umożliwia eksport produkt&oacute;w sklepu do pliku XML dla Google Merchant Center.]]></description>
+    <author><![CDATA[x13.pl]]></author>
+    <tab><![CDATA[export]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

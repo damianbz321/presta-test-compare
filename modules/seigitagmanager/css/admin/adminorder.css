@@ -1,0 +1,34 @@
+#stminfopanel .stmparagraph {
+    border-left: 2px solid #7fb069;
+    padding: 6px;
+}
+#stminfopanel .stmparagraph > p:last-child {
+    margin-bottom: 0;
+}
+#stminfopanel .sbadge {
+    margin-right: 5px;
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    padding: 2px 8px 2px 6px;
+    border-radius: 11px;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+}
+#stminfopanel .sbadge > span {
+    background-color: #e8e8e8;
+    position: relative;
+    left: -6px;
+    padding: 4px 5px 4px 6px;
+    color: #171717;
+}
+#stminfopanel .sbadge.sbadge-green > span { background-color: #dbf7d0; }
+#stminfopanel .sbadge.sbadge-blue > span { background-color: #d0e8fd; }
+#stminfopanel .sbadge.sbadge-blue2 > span { background-color: #f9e4ff; }
+#stminfopanel .sbadge.sbadge-red > span { background-color: #ffd5d5; }
+#stminfopanel .sbadge.sbadge-orange > span { background-color: #fff0de; }
+
+#content #stminfopanel h3{
+    margin: 15px 0 15px 0;
+}

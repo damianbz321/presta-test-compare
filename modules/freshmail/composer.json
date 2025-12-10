@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/freshmail",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FreshMail",
+      "email": "pomoc@freshmail.pl"
+    }
+  ],
+  "config": {
+    "vendor-dir": "lib"
+  },
+  "autoload": {
+    "classmap": [
+      "classes",
+      "controllers",
+      "interfaces",
+      "src"
+    ],
+    "psr-4": {
+      "FreshMail\\": "src/"
+    }
+  }
+}

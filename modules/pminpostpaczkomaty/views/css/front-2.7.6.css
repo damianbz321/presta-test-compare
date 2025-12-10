@@ -1,0 +1,198 @@
+/**
+* 2014-2020 Presta-Mod.pl Rafał Zontek
+*
+* NOTICE OF LICENSE
+*
+* Poniższy kod jest kodem płatnym, rozpowszechanie bez pisemnej zgody autora zabronione
+* Moduł można zakupić na stronie Presta-Mod.pl. Modyfikacja kodu jest zabroniona,
+* wszelkie modyfikacje powodują utratę gwarancji
+*
+* http://presta-mod.pl
+*
+* DISCLAIMER
+*
+*
+*  @author    Presta-Mod.pl Rafał Zontek <biuro@presta-mod.pl>
+*  @copyright 2014-2020 Presta-Mod.pl
+*  @license   Licecnja na jedną domenę
+*  Presta-Mod.pl Rafał Zontek
+*/
+.paczkomaty_result {
+	text-align: left;
+	padding: 0px;
+	border: 1px solid #6e6d6d;
+	background-color: #f9f9f9;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.paczkomaty_result ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.paczkomaty_result li {
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: default;
+    display: block;
+    font: menu;
+    line-height: 20px;
+    overflow: hidden;
+}
+.paczkomaty_result li:before {
+	display: block;
+    width: 24px;
+    height: 35px;
+    background: url(../img/paczkomat.png) no-repeat;
+    content: ' ';
+    float: left;
+    margin-top: 15px;
+    margin-right: 14px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.paczkomaty_odd {
+	background-color: #f9f9f9;
+}
+
+.paczkomaty_over {
+	background-color: #ece9e2;
+	color: black;
+}
+
+.paczkomat_name {
+    color: #000;
+    font-weight: 600;
+    display: block;
+}
+
+.widget-modal{
+    position: fixed !important;
+    z-index: 99999;
+    background: white;
+}
+
+.pmsender {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #999;
+    width: 100%;
+    margin-top: 1px;
+    border-radius: 3px;
+}
+
+.pmsender:hover {
+    border: 1px solid black;
+}
+
+.widget-modal {
+	z-index: 9999998;
+}
+
+.widget-modal {
+	background: white;
+}
+.widget-modal {
+	margin-left: 0px !important;
+}
+
+.easypack-widget .map-list-row .map-list-flex .list-widget {
+	min-height: 240px !important;
+}
+
+.overlay_pminpost{
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: black;
+	z-index: 9999995;
+	display: block;
+	background: url('../img/ovarlay.png');
+
+}
+
+#select-widget{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100px;
+    padding: 10px;
+    background: #f9db4d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+}
+
+.paczkomaty-logo{
+	display: block;
+	background: url('../img/paczkomat.png');
+	width: 19px;
+	height: 27px;
+	float: right;
+}
+
+.paczkomaty-label{
+    display: block;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.paczkomat-input{
+	padding: 9px; 
+	margin-top: 1px;
+	width: 100%;
+	border-radius: 1px;
+}
+.col-50{
+	width: 100%;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
+@media (min-width: 1024px) {
+	.col-100 {
+		width: 100%;
+		float: left;
+	}
+	.col-50{
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1024px) {
+	#select-widget{
+	   height: 150px;
+	}
+}
+
+.widget-modal .loading-icon-wrapper.loader-wrapper:not(.hidden) div {
+    height: auto !important;
+ 	width: auto !important;
+}
+
+@media (max-width: 1023px) {
+    #select-widget{
+        height: 150px;
+    }
+}
+
+@media (max-width: 431px) {
+    #select-widget{
+        height: 180px;
+    }
+}

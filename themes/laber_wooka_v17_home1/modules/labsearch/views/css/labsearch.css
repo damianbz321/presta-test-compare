@@ -1,0 +1,114 @@
+#header .header-top .search-widget{
+	width: 100%;
+}
+.laberSearch{padding:0 15px;}
+.laberSearch .expand-more{
+	display: block;
+	position: relative;
+	font-size: 18px;
+}
+.laberSearch .expand-more .icon_search{
+	line-height: 90px;
+	height: 90px;
+	display: block;
+}
+.laberSearch .laberSearch-i {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    left: inherit;
+    right: 0;
+    width: 350px;
+    margin: 0;
+}
+.wrap_search_widget {
+    position: relative;
+}
+#search_popup {
+    position: absolute;
+    left: 0;
+    top: 47px;
+    width: 286px;
+    background: #fff;
+    z-index: 999;
+    box-shadow: 0 0 7px rgba(0,0,0,0.4);
+}
+#search_popup .wrap_item {
+    padding: 10px;
+}
+#search_popup .wrap_item .product {
+    margin-bottom: 10px;
+}
+
+#search_popup .wrap_item .product:last-child {
+    margin-bottom: 0;
+}
+#search_popup .product .search_img {
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 5%;
+    width: 30%;
+}
+#search_popup .product .search_img:hover {
+    border: 1px solid #777;
+}
+
+#search_popup .product .search_img img{
+    max-width:100%;
+    height: auto;
+}
+
+#search_popup .search_info {
+    float: left;
+    width: 65%;
+}
+
+#search_popup .search_info .product_name {
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+#search_popup .search_info .price {
+    display: block;
+    font-size: .875rem;
+    color: #232323;
+    font-weight: 700;
+    margin-top: 4px;
+}
+.header-top .search-widget form input[type="text"]{
+	min-width: inherit;
+	width: 100%;
+	border: 1px solid #ebebeb;
+	color: #292929;
+	font-size: 14px;
+}
+.search-widget form input[type="text"]:focus{
+	outline: 1px solid #292929;
+}
+.search-widget form button[type="submit"] {
+    position: absolute;
+    background: none;
+    border: none;
+    bottom: 0;
+    right: 0;
+    color: #292929;
+    top: 0;
+    padding: 0 15px;
+	cursor: pointer;
+}
+@media only screen and (min-width : 768px) and (max-width : 991px){
+	.laberSearch .laberSearch-i{
+		left: -222%;
+	}
+}
+@media only screen and (max-width : 767px){
+	#header .header-nav .search-widget{
+		padding: 0 15px;
+		margin-bottom:15px;
+		width: 100%;
+	}
+	.search-widget form input[type="text"]{
+		width:100%;
+		border: 1px solid #ebebeb;
+	}
+}

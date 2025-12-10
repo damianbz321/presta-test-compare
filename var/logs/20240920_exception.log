@@ -1,0 +1,5 @@
+*ERROR* 	v1.7.8.3	2024/09/20 - 08:38:29: Link to database cannot be established: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2024/09/20 - 08:38:36: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2024/09/20 - 08:38:45: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2024/09/20 - 08:39:30: Link to database cannot be established: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2024/09/20 - 08:48:49: Link to database cannot be established: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution at line 136 in file classes/db/DbPDO.php

@@ -1,0 +1,11 @@
+Witaj,
+
+
+Wymagana aktywacja
+
+Dziękujemy za zapisanie się, prosimy o potwierdzenie klikając poniższy link:
+{verif_url}
+
+
+
+{shop_name} [{shop_url}] na silniku PrestaShop(tm) [http://www.prestashop.com/]

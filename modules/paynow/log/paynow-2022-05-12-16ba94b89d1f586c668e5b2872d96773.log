@@ -1,0 +1,40 @@
+2022-05-12 1:08:12.136921 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing payment for cart {cartId=307, externalId=307_627c41dc216cd}
+2022-05-12 1:08:14.295694 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Created paynow data entry {cartId=307, externalId=307_627c41dc216cd}
+2022-05-12 1:08:14.297193 088f8cad5a09fa80b030c8b722c7eb7c INFO Payment has been successfully created {cartId=307, externalId=307_627c41dc216cd, paymentId=BLT1-Z29-VRO-48L, status=PENDING}
+2022-05-12 1:08:14.303034 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Setting optimistic lock on paynow data {cartId=307, externalId=307_627c41dc216cd}
+2022-05-12 1:08:14.306632 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully set up optimistic lock on paynow data {externalId=307_627c41dc216cd}
+2022-05-12 1:08:14.307832 088f8cad5a09fa80b030c8b722c7eb7c INFO Creating an order from cart {cartId=307, externalId=307_627c41dc216cd}
+2022-05-12 1:08:14.715480 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=307_627c41dc216cd, paymentId=BLT1-Z29-VRO-48L, status=NEW}
+2022-05-12 1:08:14.719880 685d153b262b5fdb3d140f718b90c7ae DEBUG Successfully updated payment data {paymentId=BLT1-Z29-VRO-48L, status=NEW}
+2022-05-12 1:08:14.720777 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=307, externalId=307_627c41dc216cd, orderId=0, orderReference=, paymentId=BLT1-Z29-VRO-48L, fromStatus=NEW, toStatus=NEW}
+2022-05-12 1:08:14.721899 685d153b262b5fdb3d140f718b90c7ae WARNING An order does not exists {orderId=0}
+2022-05-12 1:08:14.750211 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=307_627c41dc216cd, paymentId=BLT1-Z29-VRO-48L, status=PENDING}
+2022-05-12 1:08:14.754287 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BLT1-Z29-VRO-48L, status=PENDING}
+2022-05-12 1:08:14.755101 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=307, externalId=307_627c41dc216cd, orderId=0, orderReference=, paymentId=BLT1-Z29-VRO-48L, fromStatus=NEW, toStatus=PENDING}
+2022-05-12 1:08:14.756097 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {orderId=0}
+2022-05-12 1:08:15.439821 088f8cad5a09fa80b030c8b722c7eb7c INFO An order has been successfully created {cartId=307, externalId=307_627c41dc216cd, orderId=60, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L}
+2022-05-12 1:08:15.440774 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Unsetting optimistic lock on paynow data {cartId=307, externalId=307_627c41dc216cd}
+2022-05-12 1:08:15.443083 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully unset optimistic lock on paynow data {externalId=307_627c41dc216cd}
+2022-05-12 1:08:15.445550 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully updated payment data {orderId=60, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L}
+2022-05-12 1:08:16.104260 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BLT1-Z29-VRO-48L}
+2022-05-12 1:08:16.266508 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BLT1-Z29-VRO-48L, status=PENDING}
+2022-05-12 1:08:16.267744 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=307, externalId=307_627c41dc216cd, orderId=60, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L, fromStatus=PENDING, toStatus=PENDING}
+2022-05-12 1:08:16.269503 088f8cad5a09fa80b030c8b722c7eb7c ERROR An error occurred during updating state {code=0, externalId=307_627c41dc216cd, paymentId=BLT1-Z29-VRO-48L, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-05-12 1:08:20.197808 088f8cad5a09fa80b030c8b722c7eb7c INFO Checking order's payment status {externalId=307_627c41dc216cd}
+2022-05-12 1:08:20.199532 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BLT1-Z29-VRO-48L}
+2022-05-12 1:08:20.388384 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BLT1-Z29-VRO-48L, status=PENDING}
+2022-05-12 1:08:20.390898 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=307, externalId=307_627c41dc216cd, orderId=60, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L, fromStatus=PENDING, toStatus=PENDING}
+2022-05-12 1:08:20.392373 088f8cad5a09fa80b030c8b722c7eb7c ERROR An error occurred during updating state {code=0, externalId=307_627c41dc216cd, paymentId=BLT1-Z29-VRO-48L, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-05-12 1:08:23.201041 088f8cad5a09fa80b030c8b722c7eb7c INFO Checking order's payment status {externalId=307_627c41dc216cd}
+2022-05-12 1:08:23.202689 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BLT1-Z29-VRO-48L}
+2022-05-12 1:08:23.357770 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BLT1-Z29-VRO-48L, status=CONFIRMED}
+2022-05-12 1:08:23.359175 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=307, externalId=307_627c41dc216cd, orderId=60, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-05-12 1:08:23.361073 088f8cad5a09fa80b030c8b722c7eb7c INFO Adding new state to order's history {externalId=307_627c41dc216cd, orderId=60, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L, paymentStatus=CONFIRMED, state=2}
+2022-05-12 1:08:23.560301 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=307_627c41dc216cd, paymentId=BLT1-Z29-VRO-48L, status=CONFIRMED}
+2022-05-12 1:08:23.565058 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BLT1-Z29-VRO-48L, status=CONFIRMED}
+2022-05-12 1:08:23.565953 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=307, externalId=307_627c41dc216cd, orderId=60, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-05-12 1:08:23.569684 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BLT1-Z29-VRO-48L, status=CONFIRMED}
+2022-05-12 1:08:23.570528 5894f5bae910a7be2366f9518f0baedb INFO Changed order's state {cartId=307, externalId=307_627c41dc216cd, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L, status=CONFIRMED}
+2022-05-12 1:08:23.663180 088f8cad5a09fa80b030c8b722c7eb7c INFO Added new state to order's history {externalId=307_627c41dc216cd, orderId=60, orderReference=FTVPFQZYU,  paymentId=BLT1-Z29-VRO-48L, paymentStatus=CONFIRMED, state=2, historyId=223}
+2022-05-12 1:08:23.666420 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully updated payment data {paymentId=BLT1-Z29-VRO-48L, status=CONFIRMED}
+2022-05-12 1:08:23.667320 088f8cad5a09fa80b030c8b722c7eb7c INFO Changed order's state {cartId=307, externalId=307_627c41dc216cd, orderReference=FTVPFQZYU, paymentId=BLT1-Z29-VRO-48L, status=CONFIRMED}

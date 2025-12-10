@@ -1,0 +1,23 @@
+imports:
+  - { resource: ../common.yml }
+
+services:
+  inpost.shipping.time_checker:
+    class: InPost\Shipping\TimeChecker
+    public: true
+    arguments:
+      - '@inpost.shipping.configuration.carriers'
+
+  inpost.shipping.updater.cart_choice:
+    class: InPost\Shipping\CartChoiceUpdater
+    public: true
+    arguments:
+      - '@inpost.shipping.module'
+      - '@inpost.shipping.data_provider.point'
+
+  inpost.shipping.presenter.checkout_data:
+    class: InPost\Shipping\Presenter\CheckoutDataPresenter
+    public: true
+    arguments:
+      - '@inpost.shipping.data_provider.customer_choice'
+      - '@inpost.shipping.data_provider.point'

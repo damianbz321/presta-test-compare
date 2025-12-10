@@ -1,0 +1,5 @@
+your_route_name:
+  path: freshmail/demo
+  methods: [GET]
+  defaults:
+    _controller: 'FreshMail\Controller\Admin\DemoController::demoAction'

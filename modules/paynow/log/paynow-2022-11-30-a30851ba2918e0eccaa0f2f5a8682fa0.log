@@ -1,0 +1,51 @@
+2022-11-30 0:00:48.858716 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing payment for cart {cartId=836, externalId=836_63868f20d1a52}
+2022-11-30 0:00:51.781604 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Created paynow data entry {cartId=836, externalId=836_63868f20d1a52}
+2022-11-30 0:00:51.782455 088f8cad5a09fa80b030c8b722c7eb7c INFO Payment has been successfully created {cartId=836, externalId=836_63868f20d1a52, paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:00:51.783807 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Setting optimistic lock on paynow data {cartId=836, externalId=836_63868f20d1a52}
+2022-11-30 0:00:51.785753 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully set up optimistic lock on paynow data {externalId=836_63868f20d1a52}
+2022-11-30 0:00:51.786592 088f8cad5a09fa80b030c8b722c7eb7c INFO Creating an order from cart {cartId=836, externalId=836_63868f20d1a52}
+2022-11-30 0:00:52.137213 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=836_63868f20d1a52, paymentId=BL59-B6I-DC8-PFO, status=NEW}
+2022-11-30 0:00:52.140204 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=0, orderReference=, paymentId=BL59-B6I-DC8-PFO, fromStatus=NEW, toStatus=NEW}
+2022-11-30 0:00:52.141170 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=836, externalId=836_63868f20d1a52, orderId=0, orderReference=, paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:00:52.203982 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=836_63868f20d1a52, paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:00:52.207415 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=0, orderReference=, paymentId=BL59-B6I-DC8-PFO, fromStatus=NEW, toStatus=PENDING}
+2022-11-30 0:00:52.208605 685d153b262b5fdb3d140f718b90c7ae WARNING An order does not exists {cartId=836, externalId=836_63868f20d1a52, orderId=0, orderReference=, paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:00:53.596283 088f8cad5a09fa80b030c8b722c7eb7c INFO An order has been successfully created {cartId=836, externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:00:53.597009 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Unsetting optimistic lock on paynow data {cartId=836, externalId=836_63868f20d1a52}
+2022-11-30 0:00:53.599621 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully unset optimistic lock on paynow data {externalId=836_63868f20d1a52}
+2022-11-30 0:00:53.602544 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully updated payment data {orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:00:54.346641 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:00:54.480514 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:00:54.481405 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, fromStatus=NEW, toStatus=PENDING}
+2022-11-30 0:00:54.484169 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully updated payment data {paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:00:54.485002 088f8cad5a09fa80b030c8b722c7eb7c INFO Changed order's state {cartId=836, externalId=836_63868f20d1a52, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:00:59.169545 088f8cad5a09fa80b030c8b722c7eb7c INFO Checking order's payment status {externalId=836_63868f20d1a52}
+2022-11-30 0:00:59.171176 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:00:59.276523 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:00:59.278013 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, fromStatus=PENDING, toStatus=PENDING}
+2022-11-30 0:00:59.279356 088f8cad5a09fa80b030c8b722c7eb7c ERROR An error occurred during updating state {code=0, externalId=836_63868f20d1a52, paymentId=BL59-B6I-DC8-PFO, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-11-30 0:01:02.160782 088f8cad5a09fa80b030c8b722c7eb7c INFO Checking order's payment status {externalId=836_63868f20d1a52}
+2022-11-30 0:01:02.162400 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:01:02.296828 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:01:02.298368 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, fromStatus=PENDING, toStatus=PENDING}
+2022-11-30 0:01:02.299562 088f8cad5a09fa80b030c8b722c7eb7c ERROR An error occurred during updating state {code=0, externalId=836_63868f20d1a52, paymentId=BL59-B6I-DC8-PFO, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-11-30 0:01:05.241600 088f8cad5a09fa80b030c8b722c7eb7c INFO Checking order's payment status {externalId=836_63868f20d1a52}
+2022-11-30 0:01:05.243329 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:01:05.351788 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BL59-B6I-DC8-PFO, status=PENDING}
+2022-11-30 0:01:05.353715 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, fromStatus=PENDING, toStatus=PENDING}
+2022-11-30 0:01:05.355160 088f8cad5a09fa80b030c8b722c7eb7c ERROR An error occurred during updating state {code=0, externalId=836_63868f20d1a52, paymentId=BL59-B6I-DC8-PFO, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-11-30 0:01:08.355900 088f8cad5a09fa80b030c8b722c7eb7c INFO Checking order's payment status {externalId=836_63868f20d1a52}
+2022-11-30 0:01:08.357347 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieving payment status {paymentId=BL59-B6I-DC8-PFO}
+2022-11-30 0:01:08.451495 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=836_63868f20d1a52, paymentId=BL59-B6I-DC8-PFO, status=CONFIRMED}
+2022-11-30 0:01:08.455324 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-11-30 0:01:08.459969 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, paymentStatus=CONFIRMED, state=2}
+2022-11-30 0:01:08.509867 088f8cad5a09fa80b030c8b722c7eb7c INFO Retrieved payment status {paymentId=BL59-B6I-DC8-PFO, status=CONFIRMED}
+2022-11-30 0:01:08.511262 088f8cad5a09fa80b030c8b722c7eb7c INFO Processing order's state update {cartId=836, externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-11-30 0:01:08.514373 088f8cad5a09fa80b030c8b722c7eb7c INFO Adding new state to order's history {externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, paymentStatus=CONFIRMED, state=2}
+2022-11-30 0:01:09.226032 088f8cad5a09fa80b030c8b722c7eb7c INFO Added new state to order's history {externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV,  paymentId=BL59-B6I-DC8-PFO, paymentStatus=CONFIRMED, state=2, historyId=793}
+2022-11-30 0:01:09.229336 088f8cad5a09fa80b030c8b722c7eb7c DEBUG Successfully updated payment data {paymentId=BL59-B6I-DC8-PFO, status=CONFIRMED}
+2022-11-30 0:01:09.230151 088f8cad5a09fa80b030c8b722c7eb7c INFO Changed order's state {cartId=836, externalId=836_63868f20d1a52, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, status=CONFIRMED}
+2022-11-30 0:01:09.319741 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=836_63868f20d1a52, orderId=205, orderReference=FEAKPJUPV,  paymentId=BL59-B6I-DC8-PFO, paymentStatus=CONFIRMED, state=2, historyId=792}
+2022-11-30 0:01:09.322535 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BL59-B6I-DC8-PFO, status=CONFIRMED}
+2022-11-30 0:01:09.323407 5894f5bae910a7be2366f9518f0baedb INFO Changed order's state {cartId=836, externalId=836_63868f20d1a52, orderReference=FEAKPJUPV, paymentId=BL59-B6I-DC8-PFO, status=CONFIRMED}
+2022-11-30 11:40:35.060060 ec51066c9b66b8c029bad5032461b2fd ERROR Error occurred during retrieving github latest release information {message=I}

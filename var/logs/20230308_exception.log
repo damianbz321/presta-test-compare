@@ -1,0 +1,64 @@
+*ERROR* 	v1.7.8.3	2023/03/08 - 02:08:15: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 02:08:21: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 02:08:26: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 02:08:31: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 02:08:36: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:05:10: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:05:17: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:05:23: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:05:29: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:18:14: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:18:19: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:18:24: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 03:18:29: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 04:20:20: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 04:20:27: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 04:20:33: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 04:20:39: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 04:20:44: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 06:55:10: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 06:55:17: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 06:55:23: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 07:45:11: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 08:24:00: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 08:24:06: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 08:24:23: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 08:59:18: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 08:59:25: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 08:59:34: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 08:59:35: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 10:33:56: Invalid product vars at line 187 in file override/classes/Link.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 10:35:36: Invalid product vars at line 174 in file classes/Link.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 10:35:50: Invalid product vars at line 174 in file classes/Link.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 10:35:55: Invalid product vars at line 174 in file classes/Link.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 10:36:11: Invalid product vars at line 174 in file classes/Link.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 12:07:11: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 12:07:18: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 12:07:20: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 12:18:36: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 12:18:41: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 12:18:46: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 13:44:20: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 14:01:40: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 14:01:41: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 15:45:57: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 15:45:57: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:42:16: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:04: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:10: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:11: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:11: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:16: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:16: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:18: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 16:45:21: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 17:45:10: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 17:45:17: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 17:45:23: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 17:57:28: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 19:18:36: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 19:18:41: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 19:18:46: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 19:18:51: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 19:18:57: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/03/08 - 20:38:04: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>purls</name>
+    <displayName><![CDATA[Pretty Clean URLs]]></displayName>
+    <version><![CDATA[2.9.2]]></version>
+    <description><![CDATA[Moduł generuje przyjazne linki dla wybranych typ&oacute;w stron, podnosi to wartość SEO Twojego sklepu internetowego]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[seo]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

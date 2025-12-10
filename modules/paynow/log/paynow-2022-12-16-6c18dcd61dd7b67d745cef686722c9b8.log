@@ -1,0 +1,28 @@
+2022-12-16 23:52:04.355720 3a27ebdd2341559e4d1e856df73d3bcc INFO Processing payment for cart {cartId=884, externalId=884_639cf69456d7e}
+2022-12-16 23:52:06.427968 3a27ebdd2341559e4d1e856df73d3bcc DEBUG Created paynow data entry {cartId=884, externalId=884_639cf69456d7e}
+2022-12-16 23:52:06.428894 3a27ebdd2341559e4d1e856df73d3bcc INFO Payment has been successfully created {cartId=884, externalId=884_639cf69456d7e, paymentId=BL8W-YED-Z2K-OGV, status=PENDING}
+2022-12-16 23:52:06.430186 3a27ebdd2341559e4d1e856df73d3bcc DEBUG Setting optimistic lock on paynow data {cartId=884, externalId=884_639cf69456d7e}
+2022-12-16 23:52:06.432229 3a27ebdd2341559e4d1e856df73d3bcc DEBUG Successfully set up optimistic lock on paynow data {externalId=884_639cf69456d7e}
+2022-12-16 23:52:06.433068 3a27ebdd2341559e4d1e856df73d3bcc INFO Creating an order from cart {cartId=884, externalId=884_639cf69456d7e}
+2022-12-16 23:52:06.754306 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=884_639cf69456d7e, paymentId=BL8W-YED-Z2K-OGV, status=NEW}
+2022-12-16 23:52:06.757725 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=884, externalId=884_639cf69456d7e, orderId=0, orderReference=, paymentId=BL8W-YED-Z2K-OGV, fromStatus=NEW, toStatus=NEW}
+2022-12-16 23:52:06.758619 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=884, externalId=884_639cf69456d7e, orderId=0, orderReference=, paymentId=BL8W-YED-Z2K-OGV}
+2022-12-16 23:52:06.891967 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=884_639cf69456d7e, paymentId=BL8W-YED-Z2K-OGV, status=PENDING}
+2022-12-16 23:52:06.894946 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=884, externalId=884_639cf69456d7e, orderId=0, orderReference=, paymentId=BL8W-YED-Z2K-OGV, fromStatus=NEW, toStatus=PENDING}
+2022-12-16 23:52:06.895934 685d153b262b5fdb3d140f718b90c7ae WARNING An order does not exists {cartId=884, externalId=884_639cf69456d7e, orderId=0, orderReference=, paymentId=BL8W-YED-Z2K-OGV}
+2022-12-16 23:52:08.384803 3a27ebdd2341559e4d1e856df73d3bcc INFO An order has been successfully created {cartId=884, externalId=884_639cf69456d7e, orderId=226, orderReference=VPLYWVTAK, paymentId=BL8W-YED-Z2K-OGV}
+2022-12-16 23:52:08.385731 3a27ebdd2341559e4d1e856df73d3bcc DEBUG Unsetting optimistic lock on paynow data {cartId=884, externalId=884_639cf69456d7e}
+2022-12-16 23:52:08.388561 3a27ebdd2341559e4d1e856df73d3bcc DEBUG Successfully unset optimistic lock on paynow data {externalId=884_639cf69456d7e}
+2022-12-16 23:52:08.391396 3a27ebdd2341559e4d1e856df73d3bcc DEBUG Successfully updated payment data {orderId=226, orderReference=VPLYWVTAK, paymentId=BL8W-YED-Z2K-OGV}
+2022-12-16 23:52:09.112478 3a27ebdd2341559e4d1e856df73d3bcc INFO Retrieving payment status {paymentId=BL8W-YED-Z2K-OGV}
+2022-12-16 23:52:09.294926 3a27ebdd2341559e4d1e856df73d3bcc INFO Retrieved payment status {paymentId=BL8W-YED-Z2K-OGV, status=PENDING}
+2022-12-16 23:52:09.295861 3a27ebdd2341559e4d1e856df73d3bcc INFO Processing order's state update {cartId=884, externalId=884_639cf69456d7e, orderId=226, orderReference=VPLYWVTAK, paymentId=BL8W-YED-Z2K-OGV, fromStatus=NEW, toStatus=PENDING}
+2022-12-16 23:52:09.298927 3a27ebdd2341559e4d1e856df73d3bcc DEBUG Successfully updated payment data {paymentId=BL8W-YED-Z2K-OGV, status=PENDING}
+2022-12-16 23:52:09.299746 3a27ebdd2341559e4d1e856df73d3bcc INFO Changed order's state {cartId=884, externalId=884_639cf69456d7e, orderReference=VPLYWVTAK, paymentId=BL8W-YED-Z2K-OGV, status=PENDING}
+2022-12-16 23:52:11.943900 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=884_639cf69456d7e, paymentId=BL8W-YED-Z2K-OGV, status=CONFIRMED}
+2022-12-16 23:52:11.947443 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=884, externalId=884_639cf69456d7e, orderId=226, orderReference=VPLYWVTAK, paymentId=BL8W-YED-Z2K-OGV, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-12-16 23:52:11.949994 685d153b262b5fdb3d140f718b90c7ae INFO Adding new state to order's history {externalId=884_639cf69456d7e, orderId=226, orderReference=VPLYWVTAK, paymentId=BL8W-YED-Z2K-OGV, paymentStatus=CONFIRMED, state=2}
+2022-12-16 23:52:12.738203 685d153b262b5fdb3d140f718b90c7ae INFO Added new state to order's history {externalId=884_639cf69456d7e, orderId=226, orderReference=VPLYWVTAK,  paymentId=BL8W-YED-Z2K-OGV, paymentStatus=CONFIRMED, state=2, historyId=886}
+2022-12-16 23:52:12.742839 685d153b262b5fdb3d140f718b90c7ae DEBUG Successfully updated payment data {paymentId=BL8W-YED-Z2K-OGV, status=CONFIRMED}
+2022-12-16 23:52:12.743750 685d153b262b5fdb3d140f718b90c7ae INFO Changed order's state {cartId=884, externalId=884_639cf69456d7e, orderReference=VPLYWVTAK, paymentId=BL8W-YED-Z2K-OGV, status=CONFIRMED}
+2022-12-16 23:52:13.754534 3a27ebdd2341559e4d1e856df73d3bcc INFO Checking order's payment status {externalId=884_639cf69456d7e}

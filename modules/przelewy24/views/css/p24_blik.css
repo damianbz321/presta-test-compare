@@ -1,0 +1,84 @@
+#p24-blik-modal-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+
+#p24-blik-modal-background > #p24-blik-modal-holder {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#p24-blik-modal {
+    position: relative;
+    border-radius: 2em;
+    overflow: hidden;
+    background-color: white;
+}
+
+#p24-blik-modal.loading {
+    background-image: url(../img/ajax.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#p24-blik-modal h1 {
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: .7em 2em;
+    text-align: center;
+}
+
+#p24-blik-modal .close-modal {
+    position: absolute;
+    font-size: 2em;
+    top: 1em;
+    right: 1em;
+}
+
+#p24-blik-modal.loading form > div {
+    visibility: hidden;
+}
+
+#p24-blik-modal p {
+    text-align: center;
+    margin: 1em;
+}
+
+#p24-blik-modal input {
+    border: solid 1px silver;
+    border-radius: .3em;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-align: center;
+    font-size: 3em;
+    width: 7em;
+    padding: .4em 1em;
+}
+
+#p24-blik-modal button {
+    color: white;
+    background-color: dimgrey;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: .5em 1em;
+    border-style: none;
+    border-radius: 1em;
+}
+
+#p24-blik-modal .error {
+    display: none;
+    color: darkred;
+}

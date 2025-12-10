@@ -1,0 +1,138 @@
+<?php
+/*
+ * Stworzono przez SEIGI http://pl.seigi.eu/
+ * Wszelkie prawa zastrzeżone.
+ * Zabrania się modyfikacji używania i udostępniania kodu bez zgody lub odpowiedniej licencji.
+ * Utworzono  : 2024-08-09 12:56:06
+ * Author     : SEIGI - Grzegorz Zawadzki <kontakt@seigi.eu>
+ */
+
+if(
+    extension_loaded('xdebug') ||
+    Configuration::get('SEI_BLOCK_seigitagmanager') == 1 ||
+    !extension_loaded('ionCube Loader') ||
+    ioncube_loader_iversion() < 100202 ||
+    PHP_VERSION_ID < 50600 ||
+    PHP_VERSION_ID > 70499
+){
+
+	class seigitagmanager extends Module {
+		public function __construct()
+		{
+			$this->name = 'seigitagmanager';
+			$this->version = 'x.x.x';
+			$this->author = 'SEIGI';
+			$this->need_instance = 1;
+			parent::__construct();
+			$this->displayName = 'seigitagmanager';
+			$this->description = 'Nie można było zainstalować modułu / Unable to install module';
+		}
+
+		public function install() {
+			// Blokada jest tylko po to, ażeby klient napewno odinstalował moduł.
+			// Znając życie, to nikt nie przeczyta tego do końca, a procedury instalacyjne muszę zostać wykonane
+			Configuration::updateGlobalValue('SEI_BLOCK_seigitagmanager', 1);
+			return parent::install();
+		}
+		public function uninstall() {
+			Configuration::deleteByName('SEI_BLOCK_seigitagmanager');
+			return parent::uninstall();
+		}
+
+
+		public function getContent() {
+
+        $minimum_io_v = '10.2.2';
+
+
+
+        $is_ok = true;
+        $return = '';
+        $return .= '<div style="padding: 15px;">';
+        $return .= '<h1>Nie można uruchomić modułu.</h1>';
+        $return .= '<p>Prosimy o zapoznanie się z wymagniami modułu <a href="http://docs.seigi.eu/Podstawowe_informacje/Ioncube/index.html">Więcej informacji na temat wymagań zanajduje się pod tym adresem</a></p>';
+        $ic_version = 0;
+        $errors = [];
+        if( extension_loaded('xdebug')){
+            $errors[] = $this->displayError('<span style="color: black"><b>Rozszerzenie xDebug i IonCube nie są kompatybilne</b> i nie mogą współdziałać. Aby moduł działał poprawnie, niezbędne jest odinstalowanie rozszerzenia xDebug, które powoduje błędy typu 500.<br> Więcej informacji znajduje się na stronie: https://xdebug.org/docs/compat.</span>');
+            $is_ok = false;
+        }
+
+        if(!function_exists('ioncube_loader_iversion') || !function_exists('ioncube_loader_version')){
+            $ic_message = '<b style="color: red;">BŁĄD: IonCube jest albo bardzo bardzo stary, albo w ogóle nie jest zainstalowany';
+            $is_ok = false;
+        }else if(intval('100202') > ioncube_loader_iversion()){
+            $ic_version = ioncube_loader_iversion();
+            $ic_message = '<b style="color: red;">BŁĄD: Zainstalowana wersja IonCube Loader jest zbyt stara.';
+            $is_ok = false;
+        } else {
+            $ic_version = ioncube_loader_iversion();
+            $ic_message = '<b style="color: green;">OK: Wersja IonCube Loader jest odpowiednia';
+        }
+
+        if(PHP_VERSION_ID < intval('50600')){
+            $php_message = '<b style="color: red;">BŁĄD: Wersja jest zbyt stara. ';
+            $is_ok = false;
+        } elseif(PHP_VERSION_ID > intval('70499')){
+            $php_message = '<b style="color: red;">BŁĄD: Wersja jest zbyt wysoka. Jeszcze jej nie wspieramy. ';
+            $is_ok = false;
+        } else {
+            $php_message = '<b style="color: green;">OK: Wersja jest odpowiednia';
+        }
+        $return .= implode('', $errors);
+        $return .= '<table class="table"">
+                <thead>
+                <tr>
+                <th>&nbsp;</th>
+                <th>Wymagana</th>
+                <th>Zainstalowana</th>
+                <th>Status</th>
+               </tr>
+                </thead>
+               <tr>
+                <td>Ioncube</td>
+                <td>'.$minimum_io_v.'</td>
+                <td>'.implode('.', array_map('intval',str_split(str_pad($ic_version, 6, 0, STR_PAD_LEFT),2))).'</td>
+                <td>'. $ic_message .'</td>
+               </tr>
+               <tr>
+                <td>PHP</td>
+                <td>5.6.0 - 7.4.99</td>
+                <td>'.phpversion(). '</td>
+                <td>'.$php_message.'</td>
+               </tr>
+
+    
+    
+    </table>';
+
+            $test_xyz = function($domain) use (&$return){
+                $return .= "<p>Testing {$domain} / IP: ".gethostbyname($domain).': ';
+                $return .= (Tools::file_get_contents('http://'.$domain.'/xyz.txt') == 'xyz' ? '<span style="color: green">Connection OK</span>' : '<span style="color: red">Not xyz - connection error</span>');
+                $return .= "</p>";
+            };
+
+            $test_xyz('seigi.eu');
+            $test_xyz('s1.license.seigi.eu');
+            $test_xyz('s2.license.seigi.eu');
+            $test_xyz('s3.license.seigi.eu');
+            $test_xyz('s4.license.seigi.eu');
+
+            if($is_ok && Configuration::get('SEI_BLOCK_seigirequestreview') == 1){
+                $return .= '<div style="padding: 10px; text-align: center; color: white; font-size: 2em; background-color: green;">' .
+                    'Wszystko wygląda poprawnie. Aby zapewnić prawidłowe działanie modułu, należy przejść do listy modułów i przeprowadzić jego ponowną instalację.' .
+                    '</div>';
+            } else {
+                $return .= '<div style="padding: 10px; text-align: center; color: white; font-size: 2em; background-color: #bd2424;">Prosimy poprawić błędy/problemy i zainstalować ponownie moduł. Prosimy odinstalować i zainstalować moduł ponownie</div>';
+            }
+            $return .= '</div>';
+
+            return $return;
+        }
+
+
+	}
+
+} else {
+	require_once(dirname(__FILE__). '/seigitagmanager.inc.php');
+}

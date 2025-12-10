@@ -1,0 +1,9 @@
+Hello,
+
+Thank you shopping at our store! We have got a gift for you.
+Here is your voucher code:
+{voucher}
+
+You can use this voucher code in cart.
+
+{shop_url}

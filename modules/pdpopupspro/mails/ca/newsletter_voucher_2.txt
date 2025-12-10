@@ -1,0 +1,16 @@
+Hi,
+
+
+Newsletter subscription
+ 
+Thank you for your subscription to our newsletter in {shop_name}
+ 
+By way of saying thanks, we want to give you a discount of {value} off your next order! This offer is valid for {days} day(s), so do not waste a moment!
+ 
+Here is your coupon: {voucher_num}
+
+Simply copy/paste this code during the payment process for your next order.
+
+
+
+{shop_name} [{shop_url}] powered by PrestaShop(tm) [http://www.prestashop.com/]

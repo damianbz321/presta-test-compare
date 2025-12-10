@@ -1,0 +1,16 @@
+Hola,
+
+
+Boletin de noticias
+
+Gracias por su suscripcion a nuestro boletin de novedades en {shop_name}
+ 
+A modo de darle las gracias, queremos darle un descuento del {value} en su proximo pedido! Esta oferta sera valida para {days} dia(s), asi que no pierda un instante!
+
+Aqui esta su cupon: {voucher_num}
+
+Simplemente copie y pegue este codigo durante el proceso de pago de su proximo pedido.
+
+
+
+{shop_name} [{shop_url}] creado por PrestaShop(tm) [http://www.prestashop.com/]

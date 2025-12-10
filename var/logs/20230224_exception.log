@@ -1,0 +1,26 @@
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:04:25: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:04:27: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:04:32: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:04:35: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:04:40: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:05:12: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:05:19: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:05:24: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:05:32: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:05:37: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:06:54: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:08:18: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:08:23: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:08:28: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:08:34: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:08:39: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:10:26: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:10:33: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection timed out at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:10:34: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:10:38: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:10:41: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:15:09: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:15:14: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:15:18: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:15:22: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.3	2023/02/24 - 00:15:25: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 136 in file classes/db/DbPDO.php

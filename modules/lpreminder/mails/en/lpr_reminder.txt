@@ -1,0 +1,7 @@
+HELLO {FIRST_NAME} {LAST_NAME}!
+IT'S A KIND REMINDER THAT YOUR {POINTS} LOYALTY POINTS WILL BE VALID TILL {EXPIRY_DATE}
+--------------------
+{POINTS} LOYALTY POINTS
+You received these points for your order {order_reference} that you placed at our online store {shop_name}
+
+These days are a last chance to transform points you collected for voucher code with value {points_value}

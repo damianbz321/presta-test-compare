@@ -1,0 +1,79 @@
+span.reduction 
+{
+    background: #f13340;
+    border: 1px solid #d02a2c;
+    color: white;
+    display: inline-block;
+    font: 700 14px/17px Arial, Helvetica, sans-serif;
+    padding: 1px 6px;
+}
+
+button.reduction
+{
+    position: relative;
+    display: inline-block;
+    padding: 5px 7px;
+    cursor: pointer;
+    white-space: normal;
+    text-align: left;
+    box-shadow:
+        0 1px 0 rgba(0,0,0,.25),
+        inset 0 1px 2px rgba(255,255,255,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+    color: white;
+}
+
+.pushoncart-selected-product-attribute
+{
+    width:120px;
+}
+
+table.poc-std, table.table_block {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #999999;
+    border-bottom: none;
+    background: white;
+    border-collapse: inherit;
+}
+
+table.poc-std th, table.table_block th {
+    padding: 14px 12px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black;
+    background: #999999;
+}
+
+table.poc-std td, table.table_block td {
+    padding: 12px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.promotion-top {
+    padding: 14px 12px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black;
+    background: #999999;
+}
+
+.promotion-main {
+    padding: 12px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.no-margin {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}

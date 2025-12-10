@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>freshmail</name>
+    <displayName><![CDATA[FreshMail dla PrestaShop]]></displayName>
+    <version><![CDATA[3.10.1]]></version>
+    <description><![CDATA[Synchronizuje subskrybent&oacute;w newslettera i pozwala wsp&oacute;łpracować z narzędziami FreshMail]]></description>
+    <author><![CDATA[FreshMail]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Jesteś pewien, że chcesz odinstalować?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,374 @@
+/*
+ * jQuery Nivo Slider v3.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.ImageSlider{
+	background:#2b2b2b url(../img/bg_banner.jpg) no-repeat center center fixed;
+    background-size: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.laberImageSlider{
+}
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	width:100%;
+	z-index:8;
+	display: none;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:991;
+	cursor:pointer;
+	opacity:0;
+}
+.nivo-prevNav {
+	left:-60px;
+}
+.nivo-nextNav {
+	right:-60px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	bottom: 30px;
+	left: 30px;
+	position: absolute;
+	right: 30px;
+	text-align: center;
+	z-index: 9;
+}
+.nivo-controlNav a {
+	background: #d7d7d7;
+	border-radius: 100%;
+	cursor: pointer;
+	display: inline-block;
+	height: 7px;
+	margin: 0 5px;
+	text-indent: -999em;
+	width: 7px;
+	position: relative;
+	font-size: 0;
+	border: 2px solid transparent;
+}
+.nivo-controlNav a:hover{
+	background: #7ab532;
+	border-color: #7ab532;
+	border-radius: 7px;
+}
+.nivo-controlNav a.active{
+	background: #7ab532;
+	border-color: #7ab532;
+	width: 35px;
+	border-radius: 7px;
+}
+#lab-slideshow,
+.lab-nivoSlideshow{
+	position:relative;
+}
+.nivo-caption .legend,
+.nivo-caption .title{
+	color: #333e48;
+	font-size: 48px;
+	font-weight: 500;
+	-webkit-transition: all 300ms ease-in;
+	-moz-transition: all 300ms ease-in;
+	-ms-transition: all 300ms ease-in;
+	-o-transition: all 300ms ease-in;
+	transition: all 300ms ease-in;
+	z-index: 10;
+	line-height: 48px;
+	margin-bottom: 10px;
+}
+.nivo-caption .lab_description{
+    color: #fff;
+    font-size: 14px;
+    line-height: 150%;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+	left:0;
+	right:0;
+-webkit-transition: all 500ms ease-in;
+-moz-transition: all 500ms ease-in;
+-ms-transition: all 500ms ease-in;
+-o-transition: all 500ms ease-in;
+transition: all 500ms ease-in;
+z-index: 10;
+}
+.nivo-caption .lab_description .container{padding:0 40px;}
+.nivo-caption .lab_description.left{
+	text-align: left;
+}
+.nivo-caption .lab_description.right{
+	text-align: right;
+}
+.nivo-caption .lab_description .description{
+	margin-bottom: 40px;
+}
+.nivo-caption .lab_description .description p{
+	padding: 0;
+	margin: 0;
+	color: #333e48;
+	font-size: 16px;
+}
+
+
+.nivo-caption .readmore{
+	-webkit-transition: all 700ms ease-in;
+	-moz-transition: all 700ms ease-in;
+	-ms-transition: all 700ms ease-in;
+	-o-transition: all 700ms ease-in;
+	transition: all 700ms ease-in;
+	z-index: 10;
+}
+.lab-nivoSlideshow .nivo-caption .readmore a{
+	border-radius: 3px;
+	color: #333e48;
+	display: inline-block !important;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	padding: 0 40px;
+	border: 2px solid #333e48;
+	font-weight: 500;
+}
+.lab-nivoSlideshow .nivo-caption .readmore a:hover{
+	background: #7ab532; /* Old browsers */
+	border-color:#7ab532;
+	color:#fff;
+}
+.lab-nivoSlideshow .nivo-prevNav,
+.lab-nivoSlideshow .nivo-nextNav{
+	background: #fff;
+	color: #445268 !important;
+	display: inline-block;
+	font-size: 18px;
+	height: 48px;
+	line-height: 50px;
+	text-align: center;
+	width: 48px;
+	border-radius:100%;
+	-webkit-transition: all 300ms ease-in;
+	-moz-transition: all 300ms ease-in;
+	-ms-transition: all 300ms ease-in;
+	-o-transition: all 300ms ease-in;
+	transition: all 300ms ease-in;
+	
+}
+.lab-nivoSlideshow:hover .nivo-prevNav{left: 20px;opacity:1;}
+.lab-nivoSlideshow:hover .nivo-nextNav{right: 20px;opacity:1;}
+.nivo-caption .laberUrl{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	text-indent:-999em;
+	z-index:9;
+}
+.lab-nivoSlideshow .nivo-prevNav:hover,
+.lab-nivoSlideshow .nivo-nextNav:hover{
+	background-color: #7ab532;
+	color: #fff !important;
+}
+	@-webkit-keyframes myfirst {
+		from {width: 0;}
+		to {width: 100%;}
+	}
+	@-moz-keyframes myfirst {
+		from {width: 0;}
+		to {width: 100%;}
+	}
+	@keyframes myfirst {
+		from {width: 0;}
+		to {width: 100%;}
+	}
+	.timeline{
+		z-index:10;
+	}
+	.timeline.lab_hover{
+		-webkit-animation-play-state: paused !important;
+		animation-play-state: paused !important;
+	}
+	
+.lab-nivoSlideshow{
+	margin-bottom:30px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+#lab-slideshow{
+	height:562px;
+	overflow:hidden;
+}
+#lab-slideshow.nivoSlider {
+    display: block;
+    height: auto;
+}
+.lab-loading{
+	background: #fff;
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+	.laberrow{
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+	.laberImageSlider{
+		width: calc(100% - 315px);
+		float: left;
+		display: inline;
+		padding: 0 15px;
+	}
+	.displayImageSliderRight{
+		flex: 0 0 315px;
+		max-width: 315px;
+		padding: 0 15px;
+	}
+	.displayImageSliderRight .laberStatic .img:last-child{
+		margin-bottom:0;
+	}
+@media only screen and (min-width : 1200px) and (max-width : 1400px){
+	.laberImageSlider{
+		width: calc(100% - 250px);
+	}
+	.displayImageSliderRight {
+		flex: 0 0 250px;
+		max-width: 250px;
+	}
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+	.laberImageSlider{
+		width: calc(100% - 225px);
+	}
+	.displayImageSliderRight {
+		flex: 0 0 225px;
+		max-width: 225px;
+	}
+	.nivo-caption .lab_description{top: 10%;}
+	.nivo-caption .legend, .nivo-caption .title{
+		font-size: 30px;
+		line-height: 1;
+	}
+	.nivo-caption .lab_description .description {
+		margin-bottom: 10px;
+		padding-top: 0;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px){
+	.laberImageSlider{
+		width: calc(100% - 170px);
+	}
+	.displayImageSliderRight {
+		flex: 0 0 170px;
+		max-width: 170px;
+	}
+	.nivo-caption .lab_description{top: 10%;}
+	.nivo-caption .legend, .nivo-caption .title{font-size: 20px;line-height: 1; width: 100%;}
+	.nivo-caption .lab_description .description {
+		margin-bottom: 10px;
+		padding-top: 0;
+	}
+}
+@media only screen and (max-width : 767px){
+	.lab-nivoSlideshow{
+		margin-bottom: 30px;
+	}
+	.displayImageSliderRight{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.laberImageSlider{width:100%;}
+	.ImageSlider{padding-top: 30px;}
+	.displayImageSliderRight .laberStatic{
+		margin-bottom:0;
+	}
+	.nivo-controlNav,
+	.nivo-directionNav{display:none;}
+	.nivo-caption .legend,
+	.nivo-caption .title{width:auto;}
+	.nivo-caption .lab_description{top: 10%;}
+	.nivo-caption .lab_description .description {
+		margin-bottom: 10px;
+		padding-top: 0;
+	}
+	.nivo-caption .legend, .nivo-caption .title{font-size: 16px;margin-bottom: 0;line-height:1;}
+}

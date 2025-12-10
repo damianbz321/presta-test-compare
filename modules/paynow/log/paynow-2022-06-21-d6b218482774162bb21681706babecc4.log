@@ -1,0 +1,35 @@
+2022-06-21 14:29:27.744831 2afe5a39680abf4453af7c3a7a8ffb54 INFO Processing payment for cart {cartId=418, externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:29.748507 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Created paynow data entry {cartId=418, externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:29.749665 2afe5a39680abf4453af7c3a7a8ffb54 INFO Payment has been successfully created {cartId=418, externalId=418_62b1b9a7b5d72, paymentId=BL6J-VR7-W7K-QYG, status=PENDING}
+2022-06-21 14:29:29.756388 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Setting optimistic lock on paynow data {cartId=418, externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:29.759368 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Successfully set up optimistic lock on paynow data {externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:29.760385 2afe5a39680abf4453af7c3a7a8ffb54 INFO Creating an order from cart {cartId=418, externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:30.304478 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=418_62b1b9a7b5d72, paymentId=BL6J-VR7-W7K-QYG, status=NEW}
+2022-06-21 14:29:30.309448 685d153b262b5fdb3d140f718b90c7ae DEBUG Successfully updated payment data {paymentId=BL6J-VR7-W7K-QYG, status=NEW}
+2022-06-21 14:29:30.310266 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=418, externalId=418_62b1b9a7b5d72, orderId=0, orderReference=, paymentId=BL6J-VR7-W7K-QYG, fromStatus=NEW, toStatus=NEW}
+2022-06-21 14:29:30.311455 685d153b262b5fdb3d140f718b90c7ae WARNING An order does not exists {orderId=0}
+2022-06-21 14:29:30.398436 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=418_62b1b9a7b5d72, paymentId=BL6J-VR7-W7K-QYG, status=PENDING}
+2022-06-21 14:29:30.402996 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BL6J-VR7-W7K-QYG, status=PENDING}
+2022-06-21 14:29:30.403774 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=418, externalId=418_62b1b9a7b5d72, orderId=0, orderReference=, paymentId=BL6J-VR7-W7K-QYG, fromStatus=NEW, toStatus=PENDING}
+2022-06-21 14:29:30.404736 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {orderId=0}
+2022-06-21 14:29:31.535696 2afe5a39680abf4453af7c3a7a8ffb54 INFO An order has been successfully created {cartId=418, externalId=418_62b1b9a7b5d72, orderId=76, orderReference=ICLVMOCYY, paymentId=BL6J-VR7-W7K-QYG}
+2022-06-21 14:29:31.536420 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Unsetting optimistic lock on paynow data {cartId=418, externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:31.538784 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Successfully unset optimistic lock on paynow data {externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:31.541428 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Successfully updated payment data {orderId=76, orderReference=ICLVMOCYY, paymentId=BL6J-VR7-W7K-QYG}
+2022-06-21 14:29:31.981225 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieving payment status {paymentId=BL6J-VR7-W7K-QYG}
+2022-06-21 14:29:32.112318 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieved payment status {paymentId=BL6J-VR7-W7K-QYG, status=PENDING}
+2022-06-21 14:29:32.113197 2afe5a39680abf4453af7c3a7a8ffb54 INFO Processing order's state update {cartId=418, externalId=418_62b1b9a7b5d72, orderId=76, orderReference=ICLVMOCYY, paymentId=BL6J-VR7-W7K-QYG, fromStatus=PENDING, toStatus=PENDING}
+2022-06-21 14:29:32.114240 2afe5a39680abf4453af7c3a7a8ffb54 ERROR An error occurred during updating state {code=0, externalId=418_62b1b9a7b5d72, paymentId=BL6J-VR7-W7K-QYG, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-06-21 14:29:36.434526 2afe5a39680abf4453af7c3a7a8ffb54 INFO Checking order's payment status {externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:36.436193 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieving payment status {paymentId=BL6J-VR7-W7K-QYG}
+2022-06-21 14:29:36.630055 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieved payment status {paymentId=BL6J-VR7-W7K-QYG, status=PENDING}
+2022-06-21 14:29:36.634238 2afe5a39680abf4453af7c3a7a8ffb54 INFO Processing order's state update {cartId=418, externalId=418_62b1b9a7b5d72, orderId=76, orderReference=ICLVMOCYY, paymentId=BL6J-VR7-W7K-QYG, fromStatus=PENDING, toStatus=PENDING}
+2022-06-21 14:29:36.636831 2afe5a39680abf4453af7c3a7a8ffb54 ERROR An error occurred during updating state {code=0, externalId=418_62b1b9a7b5d72, paymentId=BL6J-VR7-W7K-QYG, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-06-21 14:29:38.516371 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=418_62b1b9a7b5d72, paymentId=BL6J-VR7-W7K-QYG, status=CONFIRMED}
+2022-06-21 14:29:38.519918 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BL6J-VR7-W7K-QYG, status=CONFIRMED}
+2022-06-21 14:29:38.520898 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=418, externalId=418_62b1b9a7b5d72, orderId=76, orderReference=ICLVMOCYY, paymentId=BL6J-VR7-W7K-QYG, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-06-21 14:29:38.522896 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=418_62b1b9a7b5d72, orderId=76, orderReference=ICLVMOCYY, paymentId=BL6J-VR7-W7K-QYG, paymentStatus=CONFIRMED, state=2}
+2022-06-21 14:29:39.015149 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=418_62b1b9a7b5d72, orderId=76, orderReference=ICLVMOCYY,  paymentId=BL6J-VR7-W7K-QYG, paymentStatus=CONFIRMED, state=2, historyId=282}
+2022-06-21 14:29:39.022202 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BL6J-VR7-W7K-QYG, status=CONFIRMED}
+2022-06-21 14:29:39.023185 2afe5a39680abf4453af7c3a7a8ffb54 INFO Checking order's payment status {externalId=418_62b1b9a7b5d72}
+2022-06-21 14:29:39.023202 5894f5bae910a7be2366f9518f0baedb INFO Changed order's state {cartId=418, externalId=418_62b1b9a7b5d72, orderReference=ICLVMOCYY, paymentId=BL6J-VR7-W7K-QYG, status=CONFIRMED}

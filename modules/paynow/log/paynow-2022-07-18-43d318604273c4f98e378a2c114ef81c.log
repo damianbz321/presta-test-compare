@@ -1,0 +1,28 @@
+2022-07-18 16:11:20.738349 f45cde0235cbd69c759f1c63664e63f8 INFO Processing payment for cart {cartId=474, externalId=474_62d56a08b4422}
+2022-07-18 16:11:23.618849 f45cde0235cbd69c759f1c63664e63f8 DEBUG Created paynow data entry {cartId=474, externalId=474_62d56a08b4422}
+2022-07-18 16:11:23.619817 f45cde0235cbd69c759f1c63664e63f8 INFO Payment has been successfully created {cartId=474, externalId=474_62d56a08b4422, paymentId=BLRS-5CO-XMI-4EG, status=PENDING}
+2022-07-18 16:11:23.621761 f45cde0235cbd69c759f1c63664e63f8 DEBUG Setting optimistic lock on paynow data {cartId=474, externalId=474_62d56a08b4422}
+2022-07-18 16:11:23.623883 f45cde0235cbd69c759f1c63664e63f8 DEBUG Successfully set up optimistic lock on paynow data {externalId=474_62d56a08b4422}
+2022-07-18 16:11:23.624783 f45cde0235cbd69c759f1c63664e63f8 INFO Creating an order from cart {cartId=474, externalId=474_62d56a08b4422}
+2022-07-18 16:11:24.153358 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=474_62d56a08b4422, paymentId=BLRS-5CO-XMI-4EG, status=PENDING}
+2022-07-18 16:11:24.156526 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=474, externalId=474_62d56a08b4422, orderId=0, orderReference=, paymentId=BLRS-5CO-XMI-4EG, fromStatus=NEW, toStatus=PENDING}
+2022-07-18 16:11:24.157368 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=474, externalId=474_62d56a08b4422, orderId=0, orderReference=, paymentId=BLRS-5CO-XMI-4EG}
+2022-07-18 16:11:24.210592 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=474_62d56a08b4422, paymentId=BLRS-5CO-XMI-4EG, status=NEW}
+2022-07-18 16:11:24.213159 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=474, externalId=474_62d56a08b4422, orderId=0, orderReference=, paymentId=BLRS-5CO-XMI-4EG, fromStatus=NEW, toStatus=NEW}
+2022-07-18 16:11:24.214143 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=474, externalId=474_62d56a08b4422, orderId=0, orderReference=, paymentId=BLRS-5CO-XMI-4EG}
+2022-07-18 16:11:25.676234 f45cde0235cbd69c759f1c63664e63f8 INFO An order has been successfully created {cartId=474, externalId=474_62d56a08b4422, orderId=98, orderReference=YUWDOSANI, paymentId=BLRS-5CO-XMI-4EG}
+2022-07-18 16:11:25.677150 f45cde0235cbd69c759f1c63664e63f8 DEBUG Unsetting optimistic lock on paynow data {cartId=474, externalId=474_62d56a08b4422}
+2022-07-18 16:11:25.678817 f45cde0235cbd69c759f1c63664e63f8 DEBUG Successfully unset optimistic lock on paynow data {externalId=474_62d56a08b4422}
+2022-07-18 16:11:25.680897 f45cde0235cbd69c759f1c63664e63f8 DEBUG Successfully updated payment data {orderId=98, orderReference=YUWDOSANI, paymentId=BLRS-5CO-XMI-4EG}
+2022-07-18 16:11:26.092294 f45cde0235cbd69c759f1c63664e63f8 INFO Retrieving payment status {paymentId=BLRS-5CO-XMI-4EG}
+2022-07-18 16:11:26.181340 f45cde0235cbd69c759f1c63664e63f8 INFO Retrieved payment status {paymentId=BLRS-5CO-XMI-4EG, status=PENDING}
+2022-07-18 16:11:26.182739 f45cde0235cbd69c759f1c63664e63f8 INFO Processing order's state update {cartId=474, externalId=474_62d56a08b4422, orderId=98, orderReference=YUWDOSANI, paymentId=BLRS-5CO-XMI-4EG, fromStatus=NEW, toStatus=PENDING}
+2022-07-18 16:11:26.185792 f45cde0235cbd69c759f1c63664e63f8 DEBUG Successfully updated payment data {paymentId=BLRS-5CO-XMI-4EG, status=PENDING}
+2022-07-18 16:11:26.186554 f45cde0235cbd69c759f1c63664e63f8 INFO Changed order's state {cartId=474, externalId=474_62d56a08b4422, orderReference=YUWDOSANI, paymentId=BLRS-5CO-XMI-4EG, status=PENDING}
+2022-07-18 16:11:29.316375 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=474_62d56a08b4422, paymentId=BLRS-5CO-XMI-4EG, status=CONFIRMED}
+2022-07-18 16:11:29.320215 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=474, externalId=474_62d56a08b4422, orderId=98, orderReference=YUWDOSANI, paymentId=BLRS-5CO-XMI-4EG, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-07-18 16:11:29.322957 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=474_62d56a08b4422, orderId=98, orderReference=YUWDOSANI, paymentId=BLRS-5CO-XMI-4EG, paymentStatus=CONFIRMED, state=2}
+2022-07-18 16:11:30.129579 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=474_62d56a08b4422, orderId=98, orderReference=YUWDOSANI,  paymentId=BLRS-5CO-XMI-4EG, paymentStatus=CONFIRMED, state=2, historyId=358}
+2022-07-18 16:11:30.134308 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BLRS-5CO-XMI-4EG, status=CONFIRMED}
+2022-07-18 16:11:30.135298 5894f5bae910a7be2366f9518f0baedb INFO Changed order's state {cartId=474, externalId=474_62d56a08b4422, orderReference=YUWDOSANI, paymentId=BLRS-5CO-XMI-4EG, status=CONFIRMED}
+2022-07-18 16:11:30.138941 f45cde0235cbd69c759f1c63664e63f8 INFO Checking order's payment status {externalId=474_62d56a08b4422}

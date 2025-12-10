@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>phsuperpack</name>
+    <displayName><![CDATA[Super Zestawy]]></displayName>
+    <version><![CDATA[2.0.1]]></version>
+    <description><![CDATA[Tw&oacute;rz Super Zestawy produkt&oacute;w dla swoich klient&oacute;w]]></description>
+    <author><![CDATA[prestahelp.com]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

@@ -1,0 +1,43 @@
+2022-11-29 21:18:29.480294 64619bb5117ad53e28b357f2a857555f INFO Processing payment for cart {cartId=835, externalId=835_6386691575419}
+2022-11-29 21:18:32.019387 64619bb5117ad53e28b357f2a857555f DEBUG Created paynow data entry {cartId=835, externalId=835_6386691575419}
+2022-11-29 21:18:32.020349 64619bb5117ad53e28b357f2a857555f INFO Payment has been successfully created {cartId=835, externalId=835_6386691575419, paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:32.021498 64619bb5117ad53e28b357f2a857555f DEBUG Setting optimistic lock on paynow data {cartId=835, externalId=835_6386691575419}
+2022-11-29 21:18:32.023400 64619bb5117ad53e28b357f2a857555f DEBUG Successfully set up optimistic lock on paynow data {externalId=835_6386691575419}
+2022-11-29 21:18:32.024183 64619bb5117ad53e28b357f2a857555f INFO Creating an order from cart {cartId=835, externalId=835_6386691575419}
+2022-11-29 21:18:32.283071 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=835_6386691575419, paymentId=BL7Y-BYX-MTV-Z2C, status=NEW}
+2022-11-29 21:18:32.287137 685d153b262b5fdb3d140f718b90c7ae INFO Processing order's state update {cartId=835, externalId=835_6386691575419, orderId=0, orderReference=, paymentId=BL7Y-BYX-MTV-Z2C, fromStatus=NEW, toStatus=NEW}
+2022-11-29 21:18:32.288198 685d153b262b5fdb3d140f718b90c7ae WARNING An order does not exists {cartId=835, externalId=835_6386691575419, orderId=0, orderReference=, paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:32.490715 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=835_6386691575419, paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:32.493643 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=835, externalId=835_6386691575419, orderId=0, orderReference=, paymentId=BL7Y-BYX-MTV-Z2C, fromStatus=NEW, toStatus=PENDING}
+2022-11-29 21:18:32.494781 5894f5bae910a7be2366f9518f0baedb WARNING An order does not exists {cartId=835, externalId=835_6386691575419, orderId=0, orderReference=, paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:34.679052 64619bb5117ad53e28b357f2a857555f INFO An order has been successfully created {cartId=835, externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:34.680044 64619bb5117ad53e28b357f2a857555f DEBUG Unsetting optimistic lock on paynow data {cartId=835, externalId=835_6386691575419}
+2022-11-29 21:18:34.682148 64619bb5117ad53e28b357f2a857555f DEBUG Successfully unset optimistic lock on paynow data {externalId=835_6386691575419}
+2022-11-29 21:18:34.684030 64619bb5117ad53e28b357f2a857555f DEBUG Successfully updated payment data {orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:35.297657 64619bb5117ad53e28b357f2a857555f INFO Retrieving payment status {paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:35.403255 64619bb5117ad53e28b357f2a857555f INFO Retrieved payment status {paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:35.404299 64619bb5117ad53e28b357f2a857555f INFO Processing order's state update {cartId=835, externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, fromStatus=NEW, toStatus=PENDING}
+2022-11-29 21:18:35.407109 64619bb5117ad53e28b357f2a857555f DEBUG Successfully updated payment data {paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:35.407924 64619bb5117ad53e28b357f2a857555f INFO Changed order's state {cartId=835, externalId=835_6386691575419, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:40.154474 64619bb5117ad53e28b357f2a857555f INFO Checking order's payment status {externalId=835_6386691575419}
+2022-11-29 21:18:40.156757 64619bb5117ad53e28b357f2a857555f INFO Retrieving payment status {paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:40.259463 64619bb5117ad53e28b357f2a857555f INFO Retrieved payment status {paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:40.260842 64619bb5117ad53e28b357f2a857555f INFO Processing order's state update {cartId=835, externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, fromStatus=PENDING, toStatus=PENDING}
+2022-11-29 21:18:40.261965 64619bb5117ad53e28b357f2a857555f ERROR An error occurred during updating state {code=0, externalId=835_6386691575419, paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-11-29 21:18:43.226690 64619bb5117ad53e28b357f2a857555f INFO Checking order's payment status {externalId=835_6386691575419}
+2022-11-29 21:18:43.228260 64619bb5117ad53e28b357f2a857555f INFO Retrieving payment status {paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:43.330996 64619bb5117ad53e28b357f2a857555f INFO Retrieved payment status {paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:43.332761 64619bb5117ad53e28b357f2a857555f INFO Processing order's state update {cartId=835, externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, fromStatus=PENDING, toStatus=PENDING}
+2022-11-29 21:18:43.334085 64619bb5117ad53e28b357f2a857555f ERROR An error occurred during updating state {code=0, externalId=835_6386691575419, paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-11-29 21:18:46.124905 64619bb5117ad53e28b357f2a857555f INFO Checking order's payment status {externalId=835_6386691575419}
+2022-11-29 21:18:46.126440 64619bb5117ad53e28b357f2a857555f INFO Retrieving payment status {paymentId=BL7Y-BYX-MTV-Z2C}
+2022-11-29 21:18:46.232198 64619bb5117ad53e28b357f2a857555f INFO Retrieved payment status {paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING}
+2022-11-29 21:18:46.233611 64619bb5117ad53e28b357f2a857555f INFO Processing order's state update {cartId=835, externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, fromStatus=PENDING, toStatus=PENDING}
+2022-11-29 21:18:46.234848 64619bb5117ad53e28b357f2a857555f ERROR An error occurred during updating state {code=0, externalId=835_6386691575419, paymentId=BL7Y-BYX-MTV-Z2C, status=PENDING, message=Status transition is incorrect PENDING - PENDING}
+2022-11-29 21:18:47.039377 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=835_6386691575419, paymentId=BL7Y-BYX-MTV-Z2C, status=CONFIRMED}
+2022-11-29 21:18:47.042294 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=835, externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, fromStatus=PENDING, toStatus=CONFIRMED}
+2022-11-29 21:18:47.044639 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, paymentStatus=CONFIRMED, state=2}
+2022-11-29 21:18:47.776294 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=835_6386691575419, orderId=204, orderReference=PIPPPUTVW,  paymentId=BL7Y-BYX-MTV-Z2C, paymentStatus=CONFIRMED, state=2, historyId=789}
+2022-11-29 21:18:47.779686 5894f5bae910a7be2366f9518f0baedb DEBUG Successfully updated payment data {paymentId=BL7Y-BYX-MTV-Z2C, status=CONFIRMED}
+2022-11-29 21:18:47.780606 5894f5bae910a7be2366f9518f0baedb INFO Changed order's state {cartId=835, externalId=835_6386691575419, orderReference=PIPPPUTVW, paymentId=BL7Y-BYX-MTV-Z2C, status=CONFIRMED}
+2022-11-29 21:18:49.163690 64619bb5117ad53e28b357f2a857555f INFO Checking order's payment status {externalId=835_6386691575419}

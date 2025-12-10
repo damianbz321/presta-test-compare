@@ -1,0 +1,56 @@
+2022-12-25 10:01:24.425314 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Processing payment for cart {cartId=900, externalId=900_63a8116467d59}
+2022-12-25 10:01:27.234042 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Deactivating all payments. {"external_id":"900_63a8116467d59"}
+2022-12-25 10:01:27.235275 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Created new paynow data entry {"id_order":null,"id_cart":900,"id_payment":"BL7E-IPF-03J-77X","order_reference":null,"external_id":"900_63a8116467d59","status":"NEW","sent_at":"2022-12-25 10:01:27"}
+2022-12-25 10:01:27.236088 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Payment has been successfully created {cartId=900, externalId=900_63a8116467d59, paymentId=BL7E-IPF-03J-77X, status=PENDING}
+2022-12-25 10:01:27.237282 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Setting optimistic lock on paynow data {cartId=900, externalId=900_63a8116467d59}
+2022-12-25 10:01:27.239049 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Successfully set up optimistic lock on paynow data {externalId=900_63a8116467d59}
+2022-12-25 10:01:27.239672 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Creating an order from cart {cartId=900, externalId=900_63a8116467d59}
+2022-12-25 10:01:27.561659 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Incoming notification {"paymentId":"BL7E-IPF-03J-77X","externalId":"900_63a8116467d59","status":"NEW","modifiedAt":"2022-12-25T10:01:24"}
+2022-12-25 10:01:27.671691 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Incoming notification {"paymentId":"BL7E-IPF-03J-77X","externalId":"900_63a8116467d59","status":"PENDING","modifiedAt":"2022-12-25T10:01:24"}
+2022-12-25 10:01:27.674833 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Skipped processing. Order has newer status. Time travels are prohibited. {"paymentId":"BL7E-IPF-03J-77X","externalId":"900_63a8116467d59","status":"PENDING","modifiedAt":"2022-12-25 10:01:24","activePaymentId":"BL7E-IPF-03J-77X","activePaymentStatus":"NEW","activePaymentDate":"2022-12-25 10:01:27","responseCode":202}
+2022-12-25 10:01:28.565193 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Skipped processing. Transition status (NEW) already consumed. {"paymentId":"BL7E-IPF-03J-77X","externalId":"900_63a8116467d59","status":"NEW","modifiedAt":"2022-12-25 10:01:24","activePaymentId":"BL7E-IPF-03J-77X","activePaymentStatus":"NEW","activePaymentDate":"2022-12-25 10:01:27","responseCode":202}
+2022-12-25 10:01:29.161612 50bbee0a2e5e5823fb8a86ab6fcde111 INFO An order has been successfully created {cartId=900, externalId=900_63a8116467d59, orderId=233, orderReference=AWIIJMMUC, paymentId=BL7E-IPF-03J-77X}
+2022-12-25 10:01:29.162421 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Unsetting optimistic lock on paynow data {cartId=900, externalId=900_63a8116467d59}
+2022-12-25 10:01:29.164848 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Successfully unset optimistic lock on paynow data {externalId=900_63a8116467d59}
+2022-12-25 10:01:29.167195 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Successfully updated payment data {orderId=233, orderReference=AWIIJMMUC, paymentId=BL7E-IPF-03J-77X}
+2022-12-25 10:01:29.770220 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Retrieving payment status {paymentId=BL7E-IPF-03J-77X}
+2022-12-25 10:01:29.876471 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Retrieved payment status {paymentId=BL7E-IPF-03J-77X, status=PENDING}
+2022-12-25 10:01:29.877357 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG confirmBlik: status processing started {"status":"PENDING","externalId":"900_63a8116467d59","paymentId":"BL7E-IPF-03J-77X"}
+2022-12-25 10:01:29.880413 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG confirmBlik: status processing ended {"status":"PENDING","externalId":"900_63a8116467d59","paymentId":"BL7E-IPF-03J-77X"}
+2022-12-25 10:01:34.280247 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Checking order's payment status {externalId=900_63a8116467d59}
+2022-12-25 10:01:34.282167 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Retrieving payment status {paymentId=BL7E-IPF-03J-77X}
+2022-12-25 10:01:34.432737 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Retrieved payment status {paymentId=BL7E-IPF-03J-77X, status=PENDING}
+2022-12-25 10:01:34.433644 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Status: status processing started {"status":"PENDING","externalId":null,"paymentId":null}
+2022-12-25 10:01:34.434910 50bbee0a2e5e5823fb8a86ab6fcde111 DEBUG Status: status processing failed {"status":"PENDING","externalId":null,"paymentId":null,"exception":"Skipped processing. Order or Cart not found."}
+2022-12-25 10:01:35.624037 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Incoming notification {"paymentId":"BL7E-IPF-03J-77X","externalId":"900_63a8116467d59","status":"CONFIRMED","modifiedAt":"2022-12-25T10:01:35"}
+2022-12-25 10:01:35.628475 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=900_63a8116467d59, orderId=233, orderReference=AWIIJMMUC, paymentId=BL7E-IPF-03J-77X, paymentStatus=CONFIRMED, state=2}
+2022-12-25 10:01:36.384783 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=900_63a8116467d59, orderId=233, orderReference=AWIIJMMUC,  paymentId=BL7E-IPF-03J-77X, paymentStatus=CONFIRMED, state=2, historyId=915}
+2022-12-25 10:01:37.353223 50bbee0a2e5e5823fb8a86ab6fcde111 INFO Checking order's payment status {externalId=900_63a8116467d59}
+2022-12-25 18:57:55.097105 2afe5a39680abf4453af7c3a7a8ffb54 INFO Processing payment for cart {cartId=901, externalId=901_63a88f2317b45}
+2022-12-25 18:57:57.760926 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Deactivating all payments. {"external_id":"901_63a88f2317b45"}
+2022-12-25 18:57:57.762021 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Created new paynow data entry {"id_order":null,"id_cart":901,"id_payment":"BLJI-UYP-XQI-AX5","order_reference":null,"external_id":"901_63a88f2317b45","status":"NEW","sent_at":"2022-12-25 18:57:57"}
+2022-12-25 18:57:57.762757 2afe5a39680abf4453af7c3a7a8ffb54 INFO Payment has been successfully created {cartId=901, externalId=901_63a88f2317b45, paymentId=BLJI-UYP-XQI-AX5, status=PENDING}
+2022-12-25 18:57:57.764005 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Setting optimistic lock on paynow data {cartId=901, externalId=901_63a88f2317b45}
+2022-12-25 18:57:57.766083 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Successfully set up optimistic lock on paynow data {externalId=901_63a88f2317b45}
+2022-12-25 18:57:57.766963 2afe5a39680abf4453af7c3a7a8ffb54 INFO Creating an order from cart {cartId=901, externalId=901_63a88f2317b45}
+2022-12-25 18:57:58.138082 685d153b262b5fdb3d140f718b90c7ae DEBUG Nofification: Incoming notification {"paymentId":"BLJI-UYP-XQI-AX5","externalId":"901_63a88f2317b45","status":"NEW","modifiedAt":"2022-12-25T18:57:55"}
+2022-12-25 18:57:58.411947 685d153b262b5fdb3d140f718b90c7ae DEBUG Nofification: Incoming notification {"paymentId":"BLJI-UYP-XQI-AX5","externalId":"901_63a88f2317b45","status":"PENDING","modifiedAt":"2022-12-25T18:57:55"}
+2022-12-25 18:57:58.415287 685d153b262b5fdb3d140f718b90c7ae DEBUG Nofification: Skipped processing. Order has newer status. Time travels are prohibited. {"paymentId":"BLJI-UYP-XQI-AX5","externalId":"901_63a88f2317b45","status":"PENDING","modifiedAt":"2022-12-25 18:57:55","activePaymentId":"BLJI-UYP-XQI-AX5","activePaymentStatus":"NEW","activePaymentDate":"2022-12-25 18:57:57","responseCode":202}
+2022-12-25 18:57:59.140681 685d153b262b5fdb3d140f718b90c7ae DEBUG Nofification: Skipped processing. Transition status (NEW) already consumed. {"paymentId":"BLJI-UYP-XQI-AX5","externalId":"901_63a88f2317b45","status":"NEW","modifiedAt":"2022-12-25 18:57:55","activePaymentId":"BLJI-UYP-XQI-AX5","activePaymentStatus":"NEW","activePaymentDate":"2022-12-25 18:57:57","responseCode":202}
+2022-12-25 18:57:59.409645 2afe5a39680abf4453af7c3a7a8ffb54 INFO An order has been successfully created {cartId=901, externalId=901_63a88f2317b45, orderId=234, orderReference=GLLSUCSZG, paymentId=BLJI-UYP-XQI-AX5}
+2022-12-25 18:57:59.410651 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Unsetting optimistic lock on paynow data {cartId=901, externalId=901_63a88f2317b45}
+2022-12-25 18:57:59.414246 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Successfully unset optimistic lock on paynow data {externalId=901_63a88f2317b45}
+2022-12-25 18:57:59.417320 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Successfully updated payment data {orderId=234, orderReference=GLLSUCSZG, paymentId=BLJI-UYP-XQI-AX5}
+2022-12-25 18:58:00.044661 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieving payment status {paymentId=BLJI-UYP-XQI-AX5}
+2022-12-25 18:58:00.146965 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieved payment status {paymentId=BLJI-UYP-XQI-AX5, status=PENDING}
+2022-12-25 18:58:00.147811 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG confirmBlik: status processing started {"status":"PENDING","externalId":"901_63a88f2317b45","paymentId":"BLJI-UYP-XQI-AX5"}
+2022-12-25 18:58:00.150712 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG confirmBlik: status processing ended {"status":"PENDING","externalId":"901_63a88f2317b45","paymentId":"BLJI-UYP-XQI-AX5"}
+2022-12-25 18:58:04.299959 2afe5a39680abf4453af7c3a7a8ffb54 INFO Checking order's payment status {externalId=901_63a88f2317b45}
+2022-12-25 18:58:04.301477 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieving payment status {paymentId=BLJI-UYP-XQI-AX5}
+2022-12-25 18:58:04.403187 2afe5a39680abf4453af7c3a7a8ffb54 INFO Retrieved payment status {paymentId=BLJI-UYP-XQI-AX5, status=PENDING}
+2022-12-25 18:58:04.404123 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Status: status processing started {"status":"PENDING","externalId":null,"paymentId":null}
+2022-12-25 18:58:04.405451 2afe5a39680abf4453af7c3a7a8ffb54 DEBUG Status: status processing failed {"status":"PENDING","externalId":null,"paymentId":null,"exception":"Skipped processing. Order or Cart not found."}
+2022-12-25 18:58:06.464520 5894f5bae910a7be2366f9518f0baedb DEBUG Nofification: Incoming notification {"paymentId":"BLJI-UYP-XQI-AX5","externalId":"901_63a88f2317b45","status":"CONFIRMED","modifiedAt":"2022-12-25T18:58:05"}
+2022-12-25 18:58:06.468735 5894f5bae910a7be2366f9518f0baedb INFO Adding new state to order's history {externalId=901_63a88f2317b45, orderId=234, orderReference=GLLSUCSZG, paymentId=BLJI-UYP-XQI-AX5, paymentStatus=CONFIRMED, state=2}
+2022-12-25 18:58:07.225362 5894f5bae910a7be2366f9518f0baedb INFO Added new state to order's history {externalId=901_63a88f2317b45, orderId=234, orderReference=GLLSUCSZG,  paymentId=BLJI-UYP-XQI-AX5, paymentStatus=CONFIRMED, state=2, historyId=918}
+2022-12-25 18:58:07.424132 2afe5a39680abf4453af7c3a7a8ffb54 INFO Checking order's payment status {externalId=901_63a88f2317b45}

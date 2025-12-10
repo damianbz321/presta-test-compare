@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>labproductfilter</name>
+    <displayName><![CDATA[LABER Product Filter]]></displayName>
+    <version><![CDATA[1.7.x]]></version>
+    <description><![CDATA[Get product Filter]]></description>
+    <author><![CDATA[labersthemes]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

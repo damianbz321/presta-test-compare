@@ -1,0 +1,83 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-9999 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+ */
+
+.ppb-table {
+    width: 100%;
+    background: #FFF;
+}
+
+.ppb-table td, .ppb-table th {
+    border: 1px solid #cecece;
+    padding: 4px 4px;
+}
+
+.ppb-table th {
+    background: #f8f8f8;
+}
+
+.ppb-instock {
+    width: 10px;
+    height: 10px;
+    background: green;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.ppb-instock {
+    width: 10px;
+    height: 10px;
+    background: green;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+
+.ppb-outofstock {
+    width: 10px;
+    height: 10px;
+    background: red;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.ppb-table .ppb-image {
+    text-align: center;
+}
+
+.ppb-table .ppb-image img {
+    border: 1px solid #828282;
+    padding: 3px;
+    background: #FFF;
+}
+
+@media (max-width: 768px) {
+    .ppb-table tr {
+        display: block;
+        border-bottom: 1px solid #cecece;
+        border-left: 1px solid #cecece;
+        border-right: 1px solid #cecece;
+        padding-top: 10px;
+    }
+
+    .ppb-table td {
+        display: block;
+        clear: both;
+        border:none;
+        text-align:center;
+    }
+
+    .ppb-table th {
+        display: none;
+    }
+}

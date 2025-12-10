@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{bothprices}prestashop>bothprices_fe784c2484b818598f904322db7a4a58'] = 'Preise inklusive Steuern und exklusive Steuern';
+$_MODULE['<{bothprices}prestashop>bothprices_85b0f42e66cf7c426168e3822a8ca777'] = 'Modul zur gleichzeitigen Anzeige von zwei Produktpreisen: Preis inkl. MwSt., Preis zzgl. MwSt';
+$_MODULE['<{bothprices}prestashop>bothprices_57206dc27305060c5c29150d3ad00401'] = 'MyPresta Updates';
+$_MODULE['<{bothprices}prestashop>bothprices_d7d90723c19e43735e731a36a2739c8b'] = 'Auf updates prüfen';
+$_MODULE['<{bothprices}prestashop>bothprices_2c872e677f8b5831f20a66c65e7f8966'] = 'Jetzt prüfen';
+$_MODULE['<{bothprices}prestashop>bothprices_722eb8a4b2d0b1c305d6361bcc7564e7'] = 'Aktualisiert Benachrichtigungen';
+$_MODULE['<{bothprices}prestashop>bothprices_633703a658469b7fab7f42e04e59d27a'] = '-- wählen --';
+$_MODULE['<{bothprices}prestashop>bothprices_2faec1f9f8cc7f8f40d521c4dd574f49'] = 'Aktivieren';
+$_MODULE['<{bothprices}prestashop>bothprices_bcfaccebf745acfd5e75351095a5394a'] = 'Deaktivieren';
+$_MODULE['<{bothprices}prestashop>bothprices_cc6fc347e9fd233bddcb7895e307e9a9'] = 'Aktivieren Sie diese Option, wenn Sie MyPresta.eu automatisch nach Modulupdates durchsuchen möchten. Diese Option zeigt Benachrichtigungen über neue Versionen dieses Addons an.';
+$_MODULE['<{bothprices}prestashop>bothprices_0d24168598880003b80f9e85b8e1d62a'] = 'Modulseite';
+$_MODULE['<{bothprices}prestashop>bothprices_07ac9eab57de962a9518a7545fd475fe'] = 'Dies ist ein direkter Link zur offiziellen Addon-Seite, auf der Sie über Änderungen im Modul lesen können (changelog)';
+$_MODULE['<{bothprices}prestashop>bothprices_c9cc8cce247e49bae79f15173ce97354'] = 'sparen';
+$_MODULE['<{bothprices}prestashop>bothprices_4c73ce9e52a25c69cf0dce126d548f98'] = 'Neue Version verfügbar, siehe http://MyPresta.eu für weitere Informationen';
+$_MODULE['<{bothprices}prestashop>bothprices_af02b06496e83946e73e69d774782654'] = 'Neue Version verfügbar!';
+$_MODULE['<{bothprices}prestashop>bothprices_358a5fcb448d507b41d7c0a83485973a'] = 'Modul ist auf dem neuesten Stand!';
+$_MODULE['<{bothprices}prestashop>bothprices_5dd532f0a63d89c5af0243b74732f63c'] = 'Kontakt details';
+$_MODULE['<{bothprices}prestashop>bothprices_be5a8ade79e51429acd6244e9d936ff5'] = 'Preis ohne \"zzgl. MwSt.\"';
+$_MODULE['<{bothprices}prestashop>bothprices_b3ed67915c4889b76033b731408e7f61'] = 'Wenn diese Option aktiviert ist, wird der Produktpreis ohne \"zzgl. MwSt.\" angezeigt';
+$_MODULE['<{bothprices}prestashop>bothprices_521c36a31c2762741cf0f8890cbe05e3'] = 'On';
+$_MODULE['<{bothprices}prestashop>bothprices_d15305d7a4e34e02489c74a5ef542f36'] = 'Off';
+$_MODULE['<{bothprices}prestashop>bothprices_582c69bd426cb55accc1d51a2e3818c0'] = 'Das Etikett \"zzgl. MwSt.\" anzeigen';
+$_MODULE['<{bothprices}prestashop>bothprices_89b9ed8562e0bd6d8b1df6fd510eeab8'] = 'Wenn diese Option aktiviert ist, wird das Label \"zzgl. MwSt.\" angezeigt';
+$_MODULE['<{bothprices}prestashop>bothprices_423330b85bd853676cb2591884d6ca83'] = 'Preis \"inkl. MwSt.\" Anzeigen';
+$_MODULE['<{bothprices}prestashop>bothprices_1a52545fdfc90db62ccc75170c8ed546'] = 'Wenn diese Option aktiviert ist, wird der Produktpreis \"inkl. MwSt.\" angezeigt';
+$_MODULE['<{bothprices}prestashop>bothprices_e6e9062ebdf6d8479fa9caf411017d15'] = 'Das Etikett \"inkl. MwSt.\" anzeigen';
+$_MODULE['<{bothprices}prestashop>bothprices_7789a996d40a1b9d266b4d59fa7bfa35'] = 'Wenn diese Option aktiviert ist, wird das Etikett \"inkl. MwSt.\" angezeigt';
+$_MODULE['<{bothprices}prestashop>bothprices_e2e79605fc9450ec17957cf0e910f5c6'] = 'inkl. MwSt.';
+$_MODULE['<{bothprices}prestashop>bothprices_887ee91702c962a70b87cbef07bbcaec'] = 'zzgl. MwSt.';

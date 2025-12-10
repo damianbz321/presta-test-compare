@@ -1,0 +1,22 @@
+Server restriction: hifood.pl,www.hifood.pl,*.hifood.pl,*.local,*.loc,*.localhost,*.test,dev.*,*.dev,*.dev.*
+
+------ LICENSE FILE DATA -------
+5822S075z4UC7piSrJLbikJDzU3DGG1g
+jxagP02zr1IKuRb+x3SyJgXPEVsi+qai
+oP8vgQg/ZKdBmHuwI8Tp2qtq4/IkYzz4
+wiIwXEiRCbdXlfyZh2usl+cg+YM1e37T
+oMALwgNZ7W66t5PxNvL6z24JA8oloZ+Q
+VpTo4ONkenZw2Chfbd7oo9UYp6bANSMH
+3okdhDMKATGCfd7kKwVUGzdNrqxkyq03
+X1AOGO93uvUtzdrpP/2FMZTlBFcNa4iN
+aOQUvha9W8xfGgExOzKc2fwPBEbuM000
+MyG91rlBhafqJl+cAtPNXYKAxYSO4/Sl
+CClck42upbKx+GacIQ+p7sSTgFva5HRh
+b+izfGlZOccuOUd+ZHvBDb80VEQ4E92p
+74cBiB3FEeKQMEjsenzv23/+KUsqiXAD
+UlNDOumoDffwOLj/7EG9ZYcQP1YdSVM8
+HjFKEBCbfiXqcXuBzvhjzvQ+YMDaNiR4
++0gFIjsMhWEAcmWeFRu9lhjg6GQ3oP0P
+eeSYzUXMT16HUNgx6wViLW4E4B0Mwn9r
+oKg0NqeUbumHht9JWO9b8gCjH6Qn
+--------------------------------
