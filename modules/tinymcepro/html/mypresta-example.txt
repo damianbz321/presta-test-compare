@@ -1,6 +1,0 @@
-<div style="background: #f27d64; padding:20px; display:block; text-align:center; color:#FFF;">
-<img src="//mypresta.eu/themes/extensions/img/global/logo.png" style="max-width:100%;" />
-<h2>this is example of predefined contents template</h2>
-you can manage them on module configuration page<br/>
-just create own templates and you will see them here :-)
-</div>

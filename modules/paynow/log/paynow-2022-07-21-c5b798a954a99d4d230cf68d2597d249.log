@@ -1,6 +1,0 @@
-2022-07-21 5:00:06.940233 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=479_62d700575b5b0, paymentId=BLNJ-4M5-7VN-BU5, status=PENDING}
-2022-07-21 5:00:06.945578 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=479_62d700575b5b0, paymentId=BLNJ-4M5-7VN-BU5, status=PENDING}
-2022-07-21 5:00:07.268665 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=479_62d700575b5b0, paymentId=BLNJ-4M5-7VN-BU5, status=NEW}
-2022-07-21 5:00:07.271296 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=479_62d700575b5b0, paymentId=BLNJ-4M5-7VN-BU5, status=NEW}
-2022-07-21 5:00:34.573431 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=479_62d700575b5b0, paymentId=BLNJ-4M5-7VN-BU5, status=CONFIRMED}
-2022-07-21 5:00:34.575615 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=479_62d700575b5b0, paymentId=BLNJ-4M5-7VN-BU5, status=CONFIRMED}

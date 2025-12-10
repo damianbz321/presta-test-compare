@@ -1,9 +1,0 @@
-Hola,
-¡Gracias que hace compras en nuestra tienda! Tenemos un regalo para ti.
-Aquí está su código de cupón:
-{voucher}
-{voucher_description}
-
-Puede utilizar este código de cupón en el carrito.
-
-{shop_url}

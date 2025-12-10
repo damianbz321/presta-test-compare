@@ -1,6 +1,0 @@
-2022-12-08 8:11:08.405379 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=857_638e7b9f92cd4, paymentId=BL1Z-5FA-WGG-JHA, status=CONFIRMED}
-2022-12-08 8:11:08.410311 685d153b262b5fdb3d140f718b90c7ae WARNING Payment for order or cart not exists {externalId=857_638e7b9f92cd4, paymentId=BL1Z-5FA-WGG-JHA, status=CONFIRMED}
-2022-12-08 8:11:14.916148 685d153b262b5fdb3d140f718b90c7ae INFO Incoming notification {externalId=857_638e7b9f92cd4, paymentId=BL1Z-5FA-WGG-JHA, status=NEW}
-2022-12-08 8:11:14.918045 685d153b262b5fdb3d140f718b90c7ae WARNING Payment for order or cart not exists {externalId=857_638e7b9f92cd4, paymentId=BL1Z-5FA-WGG-JHA, status=NEW}
-2022-12-08 8:11:14.982433 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=857_638e7b9f92cd4, paymentId=BL1Z-5FA-WGG-JHA, status=PENDING}
-2022-12-08 8:11:14.983990 5894f5bae910a7be2366f9518f0baedb WARNING Payment for order or cart not exists {externalId=857_638e7b9f92cd4, paymentId=BL1Z-5FA-WGG-JHA, status=PENDING}

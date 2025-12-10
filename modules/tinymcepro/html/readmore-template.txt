@@ -1,9 +1,0 @@
-<div class="tinymcepro-readmore">
-<p>Visible contents for visitor Visible contents for visitor Visible contents for visitor Visible contents for visitor Visible contents for visitor Visible contents for visitor Visible contents for visitor Visible contents for visitor Visible contents for visitor </p>
-<div class="tinymcepro-more-contents-to-show">
-These contents will appear once visitor will click on "read more" button. These contents will appear once visitor will click on "read more" button. These contents will appear once visitor will click on "read more" button. These contents will appear once visitor will click on "read more" button. These contents will appear once visitor will click on "read more" button.
-</div>
-<button class="tinymcepro-more-button btn btn-default">
-Read more
-</button>
-</div>

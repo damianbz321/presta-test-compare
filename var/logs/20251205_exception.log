@@ -1,2 +1,0 @@
-*ERROR* 	v1.7.8.3	2025/12/05 - 11:45:13: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;hifood_hifoodpresta&#039;@&#039;10.199.209.117&#039; (using password: YES) at line 136 in file classes/db/DbPDO.php
-*ERROR* 	v1.7.8.3	2025/12/05 - 11:45:13: Link to database cannot be established: SQLSTATE[HY000] [1045] Access denied for user &#039;hifood_hifoodpresta&#039;@&#039;10.199.209.117&#039; (using password: YES) at line 136 in file classes/db/DbPDO.php

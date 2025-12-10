@@ -1,2 +1,0 @@
-*ERROR* 	v1.7.8.3	2022/11/30 - 01:10:42: Link to database cannot be established: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution at line 136 in file classes/db/DbPDO.php
-*ERROR* 	v1.7.8.3	2022/11/30 - 11:40:54: Link to database cannot be established: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution at line 136 in file classes/db/DbPDO.php

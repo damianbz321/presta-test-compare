@@ -1,9 +1,0 @@
-2022-10-07 5:10:37.809740 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, status=NEW}
-2022-10-07 5:10:37.817065 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=708, externalId=YXCPCBVMX, orderId=162, orderReference=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, fromStatus=NEW, toStatus=NEW}
-2022-10-07 5:10:37.818422 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, status=NEW, message=Another payment method is selected for order}
-2022-10-07 5:11:04.320061 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, status=PENDING}
-2022-10-07 5:11:04.323402 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=708, externalId=YXCPCBVMX, orderId=162, orderReference=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, fromStatus=NEW, toStatus=PENDING}
-2022-10-07 5:11:04.324959 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, status=PENDING, message=Another payment method is selected for order}
-2022-10-07 5:12:22.015294 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, status=CONFIRMED}
-2022-10-07 5:12:22.020128 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=708, externalId=YXCPCBVMX, orderId=162, orderReference=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, fromStatus=NEW, toStatus=CONFIRMED}
-2022-10-07 5:12:22.021497 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=YXCPCBVMX, paymentId=NOQR-G7C-EGG-HF0, status=CONFIRMED, message=Another payment method is selected for order}

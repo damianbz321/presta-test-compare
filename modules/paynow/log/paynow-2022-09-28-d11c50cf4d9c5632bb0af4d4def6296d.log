@@ -1,9 +1,0 @@
-2022-09-28 10:20:43.862164 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, status=NEW}
-2022-09-28 10:20:43.880234 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=681, externalId=QNSTBWLHI, orderId=152, orderReference=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, fromStatus=NEW, toStatus=NEW}
-2022-09-28 10:20:43.881741 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, status=NEW, message=Another payment method is selected for order}
-2022-09-28 10:21:13.512850 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, status=PENDING}
-2022-09-28 10:21:13.515888 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=681, externalId=QNSTBWLHI, orderId=152, orderReference=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, fromStatus=NEW, toStatus=PENDING}
-2022-09-28 10:21:13.517188 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, status=PENDING, message=Another payment method is selected for order}
-2022-09-28 10:22:34.055006 5894f5bae910a7be2366f9518f0baedb INFO Incoming notification {externalId=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, status=CONFIRMED}
-2022-09-28 10:22:34.058834 5894f5bae910a7be2366f9518f0baedb INFO Processing order's state update {cartId=681, externalId=QNSTBWLHI, orderId=152, orderReference=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, fromStatus=NEW, toStatus=CONFIRMED}
-2022-09-28 10:22:34.059912 5894f5bae910a7be2366f9518f0baedb ERROR An error occurred during processing notification {externalId=QNSTBWLHI, paymentId=NOTB-H2K-OV1-OIG, status=CONFIRMED, message=Another payment method is selected for order}

@@ -1,4 +1,0 @@
-2022-11-06 23:36:06.256757 4dcd72e6a4950c4d698ae74506de493f INFO Processing payment for cart {cartId=779, externalId=779_636836d63eaea}
-2022-11-06 23:36:06.681689 4dcd72e6a4950c4d698ae74506de493f ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=779_636836d63eaea, message=Invalid authorization code for BLIK payment}
-2022-11-06 23:36:17.149178 4dcd72e6a4950c4d698ae74506de493f INFO Processing payment for cart {cartId=779, externalId=779_636836e1246af}
-2022-11-06 23:36:17.673001 4dcd72e6a4950c4d698ae74506de493f ERROR An error occurred during payment request process {code=400, errorType=BAD_REQUEST, externalId=779_636836e1246af, message=Invalid authorization code for BLIK payment}
